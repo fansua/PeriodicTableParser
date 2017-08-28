@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Created-By: fansua
+Bundle-ManifestVersion: 2
+Bundle-Name: jdom-2.0.6
+Bundle-Description: OSGI version of the jdom library
+Bundle-SymbolicName: org.jdom.jdom2.jdom-2.0.6
+Bundle-Version: 2.0.6
