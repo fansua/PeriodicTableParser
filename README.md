@@ -1,0 +1,7 @@
+*************** PERIODIC TABLE PARSER 
+
+1.0. SETUP 
+
+2.0 HOW TO RUN 
+
+3.0 NOTE WELL 

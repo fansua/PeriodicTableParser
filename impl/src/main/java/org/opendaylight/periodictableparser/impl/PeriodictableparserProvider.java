@@ -29,7 +29,7 @@ import com.opencsv.bean.ColumnPositionMappingStrategy;
 import com.opencsv.bean.HeaderColumnNameMappingStrategy; 
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder; 
-//import com.google.gson.stream.JsonWriter; 
+import com.google.gson.stream.JsonWriter; 
 
 import org.opendaylight.controller.md.sal.binding.api.DataBroker;
 import org.slf4j.Logger;
@@ -58,19 +58,18 @@ public class PeriodictableparserProvider {
 
         LOG.info("PeriodictableparserProvider Session Initiated");
 
-        // Call the CSV parser function and return something
+        // Call the CSV parser function and return  list of the Java objects 
         List<PeriodicElement> periodicElements = parseCSV("src/main/resources/periodictableparserPeriodic_Table_of_Elements.csv");
-      /*  try{
+        try{
             writeJSONFile("Periodic_Table_JSON.json", periodicElements);
-            //writeXMLFile("Periodic_Table_XML.xml", periodicElements);
         }catch(IOException e){
             e.printStackTrace();
-        } */
-       /* try{
+        } 
+        try{
             writeXMLFile("Periodic_Table_XML.xml", periodicElements);
         }catch(IOException e){
          e.printStackTrace();
-        } */
+        } 
 
 
     }
@@ -82,14 +81,6 @@ public class PeriodictableparserProvider {
         try{
                 reader = new BufferedReader(new FileReader(filename));
                 ColumnPositionMappingStrategy<PeriodicElement> colStrategy = new ColumnPositionMappingStrategy<PeriodicElement>();
-               // colStrategy.setType(PeriodicElement.class);
-                /*colStrategy.setColumnMapping(new String[] {
-                    "AtomicNumber","Element","Symbol","AtomicWeight","Period","Group","Phase","MostStableCrystal","Type","IonicRadius","AtomicRadius",
-                    "Electronegativity","FirstIonizationPotential","Density","MeltingPoint","BoilingPoint","Isotopes","Discoverer","YearOfDiscovery","SpecificHeatCapacity",
-                    "ElectronConfiguration","DisplayRow","DisplayColumn"
-                });
-                CsvToBean<PeriodicElement> csvToBean = new CsvToBean<PeriodicElement>();
-                List<PeriodicElement> elements = csvToBean.parse(csvToBean,reader);*/
                 elements = new CsvToBeanBuilder(reader).withType(PeriodicElement.class).build().parse();
                  LOG.info("Java Objects have been created");
             }catch(FileNotFoundException e){
@@ -111,7 +102,7 @@ public class PeriodictableparserProvider {
         return elements; 
     }
 
-     /*private void writeJSONFile(String writeFile, List<PeriodicElement> elements) throws IOException
+     private void writeJSONFile(String writeFile, List<PeriodicElement> elements) throws IOException
      { 
         JsonWriter writer = new JsonWriter(new FileWriter(writeFile));
         writer.setIndent("  ");
@@ -153,9 +144,9 @@ public class PeriodictableparserProvider {
         writer.name("DisplayRow").value(element.getDisplayRow());
         writer.name("DisplayColumn").value(element.getDisplayCol());
         writer.endObject(); 
-    } */
+    } 
 
-   /* private void writeXMLFile(String writeFile, List<PeriodicElement> elements) throws IOException
+    private void writeXMLFile(String writeFile, List<PeriodicElement> elements) throws IOException
      { 
         Document doc = new Document(); 
         doc.setRootElement(new Element("PeriodicTable"));
@@ -191,48 +182,7 @@ public class PeriodictableparserProvider {
         XMLOutputter xmlOutputter = new XMLOutputter(Format.getPrettyFormat());
         xmlOutputter.output(doc, new FileOutputStream(writeFile));
     }
-    */
-
     
-
-    /*private void writeJSONFile(String writeFile, List<PeriodicElement> elements) throws IOException
-    {
-             JsonFactory jsonData = new JsonFactory(); 
-             JsonGenerator writer = jsonData.createJsonGenerator(new File(writeFile),JsonEncoding.UTF8);
-            for(PeriodicElement element : elements){
-                writer.writeStartObject();
-                writer.writeStringField("AtomicNumber",element.getAtomicNum());
-                writer.writeStringField("Element", element.getElement());
-                writer.writeStringField("Symbol", element.getElementSymbol());
-                writer.writeStringField("AtomicWeight", element.getAtomicWeight());
-                writer.writeStringField("Period", element.getPeriod());
-                writer.writeStringField("Group", element.getGroup());
-                writer.writeStringField("Phase", element.getPhase());
-                writer.writeStringField("MostStableCrystal", element.getMstStableCrystal());
-                writer.writeStringField("Type", element.getTypeElement());
-                writer.writeStringField("IonicRadius", element.getIonicRadius());
-                writer.writeStringField("AtomicRadius", element.getAtomicRadius());
-                writer.writeStringField("Electronegativity", element.getElectronegativity());
-                writer.writeStringField("FirstIonizationPotential", element.getFirstIonizedPotential());
-                writer.writeStringField("Density", element.getDensity());
-                writer.writeStringField("MeltingPoint", element.getMeltingPt());
-                writer.writeStringField("BoilingPoint", element.getBoilingPt());
-                writer.writeStringField("Isotopes", element.getIsotopes());
-                writer.writeStringField("Discoverer",element.getDiscoverer());
-                writer.writeStringField("YearOfDiscovery", element.getYrOfDiscovery());
-                writer.writeStringField("SpecificHeatCapacity", element.getSpecifcHeatCapacity());
-                writer.writeStringField("ElectronConfiguration", element.getElectronConfig());
-                writer.writeStringField("DisplayRow", element.getDisplayRow());
-                writer.writeStringField("DisplayColumn", element.getDisplayCol());
-                writer.writeEndObject();
-            }
-            nopeee
-        writer.close();
-
-    }*/
-
-
-
     /**
      * Method called when the blueprint container is destroyed.
      */
