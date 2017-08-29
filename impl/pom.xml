@@ -37,27 +37,72 @@ and is available at http://www.eclipse.org/legal/epl-v10.html
       <version>4.0</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/com/.google.code.gson/gson -->
-   <!-- <dependency>
-      <groupId>com.google.code.gson</groupId>
-      <artifactId>gson</artifactId>
-      <version>2.8.1</version>
-    </dependency> -->
-    
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-databind</artifactId>
-       <version>2.8.8</version>
-    </dependency>
+    <!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+<dependency>
+    <groupId>commons-beanutils</groupId>
+    <artifactId>commons-beanutils</artifactId>
+    <version>1.9.3</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.6</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-text -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-text</artifactId>
+    <version>1.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-collections/commons-collections -->
+<dependency>
+    <groupId>commons-collections</groupId>
+    <artifactId>commons-collections</artifactId>
+    <version>3.2.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+<dependency>
+    <groupId>commons-logging</groupId>
+    <artifactId>commons-logging</artifactId>
+    <version>1.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+    <version>2.9.0</version>
+</dependency> 
+
+
 
     <!-- needed if I want to compile via commandline vs IDE will change this  as well -->
-   <!--  <dependency>
+  <!--<dependency>
       <groupId>org.jdom</groupId>
       <artifactId>jdom2</artifactId>
       <version>2.0.6</version>
       <scope>system</scope>
       <systemPath>/home/fansua/Downloads/jdom-2.0.6/jdom-2.0.6.jar</systemPath> 
     </dependency> -->
+
+    <dependency>
+    <groupId>org.lucee</groupId>
+    <artifactId>jdom2</artifactId>
+    <version>2.0.6</version>
+  </dependency> 
+
+  <!-- https://mvnrepository.com/artifact/jaxen/jaxen -->
+<dependency>
+    <groupId>jaxen</groupId>
+    <artifactId>jaxen</artifactId>
+    <version>1.1.6</version>
+</dependency>
+
 
     <!-- Testing Dependencies -->
     <dependency>
@@ -72,6 +117,8 @@ and is available at http://www.eclipse.org/legal/epl-v10.html
       <artifactId>mockito-all</artifactId>
       <scope>test</scope>
     </dependency>
+
+
     
   </dependencies>
 

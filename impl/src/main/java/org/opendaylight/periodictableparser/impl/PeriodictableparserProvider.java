@@ -15,7 +15,7 @@ import java.io.BufferedReader;
 import java.io.IOException; 
 import java.io.FileNotFoundException;
 import java.io.FileWriter; 
-import java.util.List; 
+import java.util.List;  
 
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerationException;
@@ -29,15 +29,15 @@ import com.opencsv.bean.ColumnPositionMappingStrategy;
 import com.opencsv.bean.HeaderColumnNameMappingStrategy; 
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder; 
-import com.google.gson.stream.JsonWriter; 
+//import com.google.gson.stream.JsonWriter; 
 
 import org.opendaylight.controller.md.sal.binding.api.DataBroker;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-//import org.jdom2.Document;
-//import org.jdom2.Element;
-//import org.jdom2.output.Format;
-//import org.jdom2.output.XMLOutputter;
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.output.Format;
+import org.jdom2.output.XMLOutputter;
 
 
 
@@ -57,16 +57,18 @@ public class PeriodictableparserProvider {
     public void init() {
 
         LOG.info("PeriodictableparserProvider Session Initiated");
+        String jsonFilePath ="src/main/resources/Periodic_Table_JSON.json";
+        String xmlFilePath ="src/main/resources/Periodic_Table_XML.xml";
 
         // Call the CSV parser function and return  list of the Java objects 
-        List<PeriodicElement> periodicElements = parseCSV("src/main/resources/periodictableparserPeriodic_Table_of_Elements.csv");
+        List<PeriodicElement> periodicElements = parseCSV("periodictableparserPeriodic_Table_of_Elements.csv");
         try{
-            writeJSONFile("Periodic_Table_JSON.json", periodicElements);
+            writeJSONFile(jsonFilePath, periodicElements);
         }catch(IOException e){
             e.printStackTrace();
-        } 
+        }
         try{
-            writeXMLFile("Periodic_Table_XML.xml", periodicElements);
+            writeXMLFile(xmlFilePath, periodicElements);
         }catch(IOException e){
          e.printStackTrace();
         } 
@@ -79,6 +81,7 @@ public class PeriodictableparserProvider {
         Reader reader = null; 
         List<PeriodicElement> elements= null; 
         try{
+              
                 reader = new BufferedReader(new FileReader(filename));
                 ColumnPositionMappingStrategy<PeriodicElement> colStrategy = new ColumnPositionMappingStrategy<PeriodicElement>();
                 elements = new CsvToBeanBuilder(reader).withType(PeriodicElement.class).build().parse();
@@ -102,50 +105,7 @@ public class PeriodictableparserProvider {
         return elements; 
     }
 
-     private void writeJSONFile(String writeFile, List<PeriodicElement> elements) throws IOException
-     { 
-        JsonWriter writer = new JsonWriter(new FileWriter(writeFile));
-        writer.setIndent("  ");
-        writeElementsArray(writer,elements);
-        writer.close();
-
-    }
-
-    private void writeElementsArray(JsonWriter writer, List<PeriodicElement> elements) throws IOException {
-
-        writer.beginArray(); 
-        for(PeriodicElement element : elements)
-            writeElement(writer, element);
-        writer.endArray(); 
-    }
-    private void writeElement(JsonWriter writer, PeriodicElement element) throws IOException{
-        writer.beginObject(); 
-        writer.name("AtomicNumber").value(element.getAtomicNum());
-        writer.name("Element").value(element.getElement());
-        writer.name("Symbol").value(element.getElementSymbol());
-        writer.name("AtomicWeight").value(element.getAtomicWeight());
-        writer.name("Period").value(element.getPeriod());
-        writer.name("Group").value(element.getGroup());
-        writer.name("Phase").value(element.getPhase());
-        writer.name("MostStableCrystal").value(element.getMstStableCrystal());
-        writer.name("Type").value(element.getTypeElement());
-        writer.name("IonicRadius").value(element.getIonicRadius());
-        writer.name("AtomicRadius").value(element.getAtomicRadius());
-        writer.name("Electronegativity").value(element.getElectronegativity());
-        writer.name("FirstIonizationPotential").value(element.getFirstIonizedPotential());
-        writer.name("Density").value(element.getDensity());
-        writer.name("MeltingPoint").value(element.getMeltingPt());
-        writer.name("BoilingPoint").value(element.getBoilingPt());
-        writer.name("Isotopes").value(element.getIsotopes());
-        writer.name("Discoverer").value(element.getDiscoverer());
-        writer.name("YearOfDiscovery").value(element.getYrOfDiscovery());
-        writer.name("SpecificHeatCapacity").value(element.getSpecifcHeatCapacity());
-        writer.name("ElectronConfiguration").value(element.getElectronConfig());
-        writer.name("DisplayRow").value(element.getDisplayRow());
-        writer.name("DisplayColumn").value(element.getDisplayCol());
-        writer.endObject(); 
-    } 
-
+     
     private void writeXMLFile(String writeFile, List<PeriodicElement> elements) throws IOException
      { 
         Document doc = new Document(); 
@@ -182,6 +142,43 @@ public class PeriodictableparserProvider {
         XMLOutputter xmlOutputter = new XMLOutputter(Format.getPrettyFormat());
         xmlOutputter.output(doc, new FileOutputStream(writeFile));
     }
+
+    private void writeJSONFile(String writeFile, List<PeriodicElement> elements) throws IOException
+    {
+             JsonFactory jsonData = new JsonFactory(); 
+             JsonGenerator writer = jsonData.createGenerator(new File(writeFile),JsonEncoding.UTF8);
+            for(PeriodicElement element : elements){
+                writer.writeStartObject();
+                writer.writeStringField("AtomicNumber",element.getAtomicNum());
+                writer.writeStringField("Element", element.getElement());
+                writer.writeStringField("Symbol", element.getElementSymbol());
+                writer.writeStringField("AtomicWeight", element.getAtomicWeight());
+                writer.writeStringField("Period", element.getPeriod());
+                writer.writeStringField("Group", element.getGroup());
+                writer.writeStringField("Phase", element.getPhase());
+                writer.writeStringField("MostStableCrystal", element.getMstStableCrystal());
+                writer.writeStringField("Type", element.getTypeElement());
+                writer.writeStringField("IonicRadius", element.getIonicRadius());
+                writer.writeStringField("AtomicRadius", element.getAtomicRadius());
+                writer.writeStringField("Electronegativity", element.getElectronegativity());
+                writer.writeStringField("FirstIonizationPotential", element.getFirstIonizedPotential());
+                writer.writeStringField("Density", element.getDensity());
+                writer.writeStringField("MeltingPoint", element.getMeltingPt());
+                writer.writeStringField("BoilingPoint", element.getBoilingPt());
+                writer.writeStringField("Isotopes", element.getIsotopes());
+                writer.writeStringField("Discoverer",element.getDiscoverer());
+                writer.writeStringField("YearOfDiscovery", element.getYrOfDiscovery());
+                writer.writeStringField("SpecificHeatCapacity", element.getSpecifcHeatCapacity());
+                writer.writeStringField("ElectronConfiguration", element.getElectronConfig());
+                writer.writeStringField("DisplayRow", element.getDisplayRow());
+                writer.writeStringField("DisplayColumn", element.getDisplayCol());
+                writer.writeEndObject();
+            }
+            
+        writer.close();
+
+    }
+
     
     /**
      * Method called when the blueprint container is destroyed.
