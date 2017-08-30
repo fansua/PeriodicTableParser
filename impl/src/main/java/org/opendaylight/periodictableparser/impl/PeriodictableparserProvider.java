@@ -89,62 +89,41 @@ public class PeriodictableparserProvider {
     * @pararm filePath This is a string reprsentatio of the absolute path of the file to be parsed
     * @return  List<PeriodicElement> This returns a list of the parsed data.
     */
-
-    private List<PeriodicElement> parseCSV(String filePath)
+     private List<PeriodicElement> parseCSV(String filePath)
     {
         LOG.info("PeriodictableparserProvider:-- Got here 2 ");
-        Reader reader = null; 
-        ClassLoader classLoader = null; 
         List<PeriodicElement> elementList = null; 
-        HeaderColumnNameMappingStrategy<PeriodicElement> headerStrategy  = null; 
         try{
 
-             
-                reader = new BufferedReader(new FileReader(filePath));
-             
-              LOG.info("PeriodictableparserProvider got here 3");
+              LOG.info("PeriodictableparserProvider--:got here 3");
 
-               // ColumnPositionMappingStrategy<PeriodicElement> colStrategy = new ColumnPositionMappingStrategy<PeriodicElement>();
-               // elementList = new CsvToBeanBuilder(reader).withType(PeriodicElement.class).build().parse();
-
-               headerStrategy = new HeaderColumnNameMappingStrategy<PeriodicElement>();
-               headerStrategy.setType(PeriodicElement.class);
-                elementList = new CsvToBeanBuilder(reader).withType(PeriodicElement.class).build().parse();
+                elementList = new CsvToBeanBuilder(new FileReader(filePath)).withType(PeriodicElement.class).build().parse();
                  LOG.info("Java Objects have been created");
-            }catch(FileNotFoundException e){
-                e.printStackTrace();
-            }catch(IOException e){
-                e.printStackTrace();
-            }finally{
-                if(reader != null){
-                    try{
-                        reader.close();
-
-                    }
-                    catch(IOException e){
-                        e.printStackTrace();
-                    }
-                }
             }
-            
+            catch(FileNotFoundException e){
+                e.printStackTrace();
+            }
+
+
         return elementList; 
     }
 
+
+
       /**
     * This method is used to export the java objects as an XML file
-    * @pararm writeFile This is a string reprsentatio of the absolute path of the file to write 
+    * @pararm writeFile This is a string reprsentation of the absolute path of the file to write 
     *          XML data to
     * @param elementList This is a list of the parsed data.
     * @return void This method does not return anything. 
     */
-
     private void writeXMLFile(String writeFile, List<PeriodicElement> elementList) throws IOException
      { 
         LOG.info("PeriodictableparserProvider got here 5");
 
-        for(PeriodicElement e : elementList){
-            //LOG.info("e.getAtomicNum()");
-            //LOG.info(e.getPeriod());
+        /*for(PeriodicElement e : elementList){
+            LOG.info(e.getAtomicNum());
+            LOG.info(e.getPeriod());
             LOG.info(e.getGroup());
             LOG.info(e.getIsotopes());
             LOG.info(e.getYrOfDiscovery());
@@ -169,7 +148,7 @@ public class PeriodictableparserProvider {
             LOG.info("----------------------------");
 
            
-        } 
+        } */
 
 
         Document doc = new Document(); 
@@ -178,11 +157,9 @@ public class PeriodictableparserProvider {
 
                 Element ele = new Element("Element");
 
-                ele.setAttribute("Name",""+ element.getAtomicNum());
+                ele.setAttribute("Name",""+ element.getElement());
 
                 ele.addContent(new Element("AtomicNumber").setText(""+element.getAtomicNum()));
-
-                ele.addContent(new Element("Element").setText(element.getElement()));
 
                 ele.addContent(new Element("Symbol").setText(element.getElementSymbol()));
 
@@ -233,11 +210,18 @@ public class PeriodictableparserProvider {
         xmlOutputter.output(doc, new FileOutputStream(writeFile));
     }
 
+     /**
+    * This method is used to export the java objects as an JSON file
+    * @pararm writeFile This is a string reprsentation of the absolute path of the file to write 
+    *          XML data to
+    * @param elementList This is a list of the parsed data.
+    * @return void This method does not return anything. 
+    */
     private void writeJSONFile(String writeFile, List<PeriodicElement> elementList) throws IOException
     {
         LOG.info("PeriodictableparserProvider:-- got here 4");
 
-        for(PeriodicElement e : elementList){
+       /* for(PeriodicElement e : elementList){
             LOG.info(e.getAtomicNum());
             LOG.info(e.getPeriod());
             LOG.info(e.getGroup());
@@ -264,64 +248,65 @@ public class PeriodictableparserProvider {
             LOG.info("----------------------------");
 
            
-        } 
+        } */
            
-
              JsonFactory jsonData = new JsonFactory(); 
              JsonGenerator writer = jsonData.createGenerator(new File(writeFile),JsonEncoding.UTF8);
+             writer.writeStartArray();
             for(PeriodicElement element : elementList){
 
                 writer.writeStartObject();
 
-                writer.writeStringField("AtomicNumber",element.getAtomicNum());
+                writer.writeNumberField("Atomic Number",element.getAtomicNum());
 
                 writer.writeStringField("Element", element.getElement());
 
                 writer.writeStringField("Symbol", element.getElementSymbol());
 
-                writer.writeStringField("AtomicWeight", element.getAtomicWeight());
+                writer.writeNumberField("Atomic Weight", element.getAtomicWeight());
 
-                writer.writeStringField("Period", element.getPeriod());
+                writer.writeNumberField("Period", element.getPeriod());
 
-                writer.writeStringField("Group", element.getGroup());
+                writer.writeNumberField("Group", element.getGroup());
 
                 writer.writeStringField("Phase", element.getPhase());
 
-                writer.writeStringField("MostStableCrystal", element.getMstStableCrystal());
+                writer.writeStringField("Most Stable Crystal", element.getMstStableCrystal());
 
                 writer.writeStringField("Type", element.getTypeElement());
 
-                writer.writeStringField("IonicRadius", element.getIonicRadius());
+                writer.writeNumberField("Ionic Radius", element.getIonicRadius());
 
-                writer.writeStringField("AtomicRadius", element.getAtomicRadius());
+                writer.writeNumberField("Atomic Radius", element.getAtomicRadius());
 
-                writer.writeStringField("Electronegativity", element.getElectronegativity());
+                writer.writeNumberField("Electronegativity", element.getElectronegativity());
 
-                writer.writeStringField("FirstIonizationPotential", element.getFirstIonizedPotential());
+                writer.writeNumberField("First Ionization Potential", element.getFirstIonizedPotential());
 
-                writer.writeStringField("Density", element.getDensity());
+                writer.writeNumberField("Density", element.getDensity());
 
-                writer.writeStringField("MeltingPoint", element.getMeltingPt());
+                writer.writeNumberField("Melting Point", element.getMeltingPt());
 
-                writer.writeStringField("BoilingPoint", element.getBoilingPt());
+                writer.writeNumberField("Boiling Point", element.getBoilingPt());
 
-                writer.writeStringField("Isotopes", element.getIsotopes());
+                writer.writeNumberField("Isotopes", element.getIsotopes());
 
                 writer.writeStringField("Discoverer",element.getDiscoverer());
 
-                writer.writeStringField("YearOfDiscovery", element.getYrOfDiscovery());
+                writer.writeNumberField("Year of Discovery", element.getYrOfDiscovery());
 
-                writer.writeStringField("SpecificHeatCapacity", element.getSpecifcHeatCapacity());
+                writer.writeNumberField("Specific Heat Capacity", element.getSpecifcHeatCapacity());
 
-                writer.writeStringField("ElectronConfiguration", element.getElectronConfig());
+                writer.writeStringField("Electron Configuration", element.getElectronConfig());
 
-                writer.writeStringField("DisplayRow", element.getDisplayRow());
+                writer.writeNumberField("Display Row", element.getDisplayRow());
 
-                writer.writeStringField("DisplayColumn", element.getDisplayCol());
+                writer.writeNumberField("Display Column", element.getDisplayCol());
 
                 writer.writeEndObject();
             }
-            
+            writer.writeEndArray();
+           
         writer.close();
 
     }

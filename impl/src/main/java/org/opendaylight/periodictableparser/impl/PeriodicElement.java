@@ -9,122 +9,169 @@
 package org.opendaylight.periodictableparser.impl;
 
 
+import com.opencsv.bean.CsvBindByName;
+
 public class PeriodicElement 
 {
+    @CsvBindByName(column = "Atomic Number")
+    private int atomicNum;
 
-    private String atomicNum;
-    private String period;
-    private String group;
-    private String isotopes;
-    private String yrOfDiscovery;
-    private String displayRow;
-    private String displayCol;
+   @CsvBindByName(column = "Period")
+    private int period;
+
+    @CsvBindByName(column = "Group")
+    private int group;
+
+    @CsvBindByName(column = "Isotopes")
+    private int isotopes;
+
+    @CsvBindByName(column = "Year of Discovery")
+    private int yrOfDiscovery;
+
+    @CsvBindByName(column = "Display Row")
+    private int displayRow;
+
+    @CsvBindByName(column = "Display Column")
+    private int displayCol;
+
+    @CsvBindByName(column = "Element")
     private String element;
+
+    @CsvBindByName(column = "Phase")
     private String phase;
+
+    @CsvBindByName(column = "Most Stable Crystal")
     private String mstStableCrystal;
+
+    @CsvBindByName(column = "Type")
     private String typeElement;
-    private String ionicRadius;
+
+    @CsvBindByName(column = "Ionic Radius")
+    private float ionicRadius;
+
+    @CsvBindByName(column = "Discoverer")
     private String discoverer;
+
+    @CsvBindByName(column = "Electron Configuration")
     private String electronConfig;
-    private String atomicWeight;
-    private String atomicRadius;
-    private String electronegativity;
-    private String firstIonizedPotential;
-    private String density;
-    private String meltingPt;
-    private String boilingPt;
-    private String specifcHeatCapacity; 
+
+    @CsvBindByName(column = "Atomic Weight")
+    private float atomicWeight;
+
+    @CsvBindByName(column = "Atomic Radius")
+    private float atomicRadius;
+
+    @CsvBindByName(column = "Electronegativity")
+    private float electronegativity;
+
+    @CsvBindByName(column = "First Ionization Potential")
+    private float firstIonizedPotential;
+
+    @CsvBindByName(column = "Density")
+    private float density;
+
+    @CsvBindByName(column = "Melting Point (K)")
+    private float meltingPt;
+
+    @CsvBindByName(column = "Boiling Point (K)")
+    private float boilingPt;
+
+    @CsvBindByName(column = "Specific Heat Capacity")
+    private float specifcHeatCapacity; 
+
+    @CsvBindByName(column = "Symbol")
     private String elementSymbol; 
 
-    public String getAtomicNum(){
+
+    public int getAtomicNum(){
         return atomicNum; 
     }
-    public void setAtomicNum(String atomicNum){
+    public void setAtomicNum(int atomicNum){
         this.atomicNum = atomicNum; 
     }
-    public String getPeriod(){
+    public int getPeriod(){
         return period;
     }
-    public void setPeriod(String period){
+    public void setPeriod(int period){
         this.period = period; 
     }
-    public String getGroup(){
+    public int getGroup(){
         return group;
     }
-    public void setGroup(String group){
+    public void setGroup(int group){
         this.group = group; 
     }
-    public String getIsotopes(){
+    public int getIsotopes(){
         return isotopes;  
     }
-    public void setIsotopes(String isotopes){
+    public void setIsotopes(int isotopes){
         this.isotopes = isotopes;
     }
-    public String getYrOfDiscovery(){
+    public int getYrOfDiscovery(){
         return yrOfDiscovery;
     }
-    public void setYrOfDiscovery(String yrOfDiscovery){
+    public void setYrOfDiscovery(int yrOfDiscovery){
         this.yrOfDiscovery = yrOfDiscovery; 
     }
-    public String getDisplayRow(){
+    public int getDisplayRow(){
         return displayRow; 
     } 
-    public void setDisplayRow(String displayRow){
+    public void setDisplayRow(int displayRow){
         this.displayRow = displayRow; 
     }
-    public String getDisplayCol(){
+    public int getDisplayCol(){
         return displayCol;
     }
-    public void setDisplayCol(String displayCol){
+    public void setDisplayCol(int displayCol){
         this.displayCol = displayCol; 
     }
     
-    public String getAtomicWeight(){
+    public float getAtomicWeight(){
         return atomicWeight; 
     }
-    public void setAtomicWeight(String atomicWeight){
+    public void setAtomicWeight(float atomicWeight){
         this.atomicWeight = atomicWeight; 
     }
-    public String getAtomicRadius(){
+    public float getAtomicRadius(){
         return atomicRadius;
     }
-    public void setAtomicRadius(String atomicRadius){
+    public void setAtomicRadius(float atomicRadius){
         this.atomicRadius = atomicRadius; 
     }
-    public String getElectronegativity(){
+    public float getElectronegativity(){
         return electronegativity;
     }
-    public void setElectronegativity(String electronegativity){
+    public void setElectronegativity(float electronegativity){
         this.electronegativity = electronegativity; 
     }
-    public String getFirstIonizedPotential(){
+    public float getFirstIonizedPotential(){
         return firstIonizedPotential;  
     }
-    public void setFirstIonizedPotential(String firstIonizedPotential){
+    public void setFirstIonizedPotential(float firstIonizedPotential){
         this.firstIonizedPotential = firstIonizedPotential;
     }
-    public String getDensity(){
+    public float getDensity(){
         return density;
     }
-    public void setDensity(String density){
+    public void setDensity(float density){
         this.density = density; 
     }
-    public String getMeltingPt(){
+    public float getMeltingPt(){
         return meltingPt; 
     } 
-    public void setMeltingPt(String meltingPt){
+    public void setMeltingPt(float meltingPt){
         this.meltingPt = meltingPt; 
     }
-    public String getBoilingPt(){
+    public float getBoilingPt(){
         return boilingPt;
     }
-    public void setBoilingPt(String boilingPt){
+    public void setBoilingPt(float boilingPt){
         this.boilingPt = boilingPt; 
     }
-     public String getSpecifcHeatCapacity(){
+     public float getSpecifcHeatCapacity(){
         return specifcHeatCapacity;
     }
-    public void setSpecifcHeatCapacity(String specifcHeatCapacity){
+    public void setSpecifcHeatCapacity(float specifcHeatCapacity){
         this.specifcHeatCapacity = specifcHeatCapacity; 
     }
      public String getElementSymbol(){
@@ -158,10 +205,10 @@ public class PeriodicElement
     public void setTypeElement(String typeElement){
         this.typeElement = typeElement;
     }
-    public String getIonicRadius(){
+    public float getIonicRadius(){
         return ionicRadius;
     }
-    public void setIonicRadius(String ionicRadius){
+    public void setIonicRadius(float ionicRadius){
         this.ionicRadius = ionicRadius; 
     }
     public String getDiscoverer(){
@@ -176,6 +223,5 @@ public class PeriodicElement
     public void setElectronConfig(String electronConfig){
         this.electronConfig = electronConfig; 
     }
-
 
 }
