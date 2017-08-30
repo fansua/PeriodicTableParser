@@ -7,39 +7,34 @@
  */
 package org.opendaylight.periodictableparser.impl;
 
-import java.io.FileReader;
-import java.io.File;  
-import java.io.FileOutputStream;
-import java.io.Reader;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import org.opendaylight.periodictableparser.impl.PeriodicElement; 
+import org.opendaylight.controller.md.sal.binding.api.DataBroker;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.io.FileReader; 
+import java.io.File; 
 import java.io.IOException; 
+import java.io.FileOutputStream; 
 import java.io.FileNotFoundException;
-import java.io.FileWriter; 
 import java.util.List;  
-import java.net.URL; 
-import java.lang.ClassLoader; 
 
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.JsonEncoding;
-
-import org.opendaylight.periodictableparser.impl.PeriodicElement; 
 import com.opencsv.CSVReader; 
 import com.opencsv.bean.ColumnPositionMappingStrategy; 
 import com.opencsv.bean.HeaderColumnNameMappingStrategy; 
 import com.opencsv.bean.CsvToBean;
-import com.opencsv.bean.CsvToBeanBuilder; 
-
-import org.opendaylight.controller.md.sal.binding.api.DataBroker;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.opencsv.bean.CsvToBeanBuilder;
 import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
+
+
 
 
 
@@ -65,18 +60,17 @@ public class PeriodictableparserProvider {
          String jsonFilePath = workingDirectory + jsonLocation;
         String xmlFilePath = workingDirectory + xmlLocation;
 
-        LOG.info("PeriodictableparserProvider:-- Session Initiated");
+        LOG.info("PeriodictableparserProvider: Session Initiated");
 
-        LOG.info("PeriodictableparserProvider:-- Got here 1");
-
+    
         List<PeriodicElement> periodicElementList = parseCSV(workingDirectory + csvLocation);
         try{
-            writeJSONFile(jsonFilePath, periodicElementList);
+            createJSONFile(jsonFilePath, periodicElementList);
         }catch(IOException e){
             e.printStackTrace();
         }
         try{
-            writeXMLFile(xmlFilePath, periodicElementList);
+            createXMLFile(xmlFilePath, periodicElementList);
         }catch(IOException e){
          e.printStackTrace();
         } 
@@ -91,19 +85,14 @@ public class PeriodictableparserProvider {
     */
      private List<PeriodicElement> parseCSV(String filePath)
     {
-        LOG.info("PeriodictableparserProvider:-- Got here 2 ");
         List<PeriodicElement> elementList = null; 
         try{
-
-              LOG.info("PeriodictableparserProvider--:got here 3");
-
                 elementList = new CsvToBeanBuilder(new FileReader(filePath)).withType(PeriodicElement.class).build().parse();
-                 LOG.info("Java Objects have been created");
+                 LOG.info("PeriodictableparserProvider: Created Java Objects");
             }
             catch(FileNotFoundException e){
                 e.printStackTrace();
             }
-
 
         return elementList; 
     }
@@ -117,39 +106,8 @@ public class PeriodictableparserProvider {
     * @param elementList This is a list of the parsed data.
     * @return void This method does not return anything. 
     */
-    private void writeXMLFile(String writeFile, List<PeriodicElement> elementList) throws IOException
+    private void createXMLFile(String writeFile, List<PeriodicElement> elementList) throws IOException
      { 
-        LOG.info("PeriodictableparserProvider got here 5");
-
-        /*for(PeriodicElement e : elementList){
-            LOG.info(e.getAtomicNum());
-            LOG.info(e.getPeriod());
-            LOG.info(e.getGroup());
-            LOG.info(e.getIsotopes());
-            LOG.info(e.getYrOfDiscovery());
-            LOG.info(e.getDisplayRow());
-            LOG.info(e.getDisplayCol());
-            LOG.info(e.getAtomicWeight());
-            LOG.info(e.getAtomicRadius());
-            LOG.info(e.getElectronegativity());
-            LOG.info(e.getFirstIonizedPotential());
-            LOG.info(e.getMeltingPt());
-            LOG.info(e.getBoilingPt());
-            LOG.info(e.getSpecifcHeatCapacity());
-            LOG.info(e.getElementSymbol());
-            LOG.info(e.getPhase());
-            LOG.info(e.getMstStableCrystal());
-            LOG.info(e.getTypeElement());
-            LOG.info(e.getIonicRadius());
-            LOG.info(e.getDiscoverer());
-            LOG.info(e.getElectronConfig());
-            LOG.info(e.getDensity());
-            LOG.info(e.getElement());
-            LOG.info("----------------------------");
-
-           
-        } */
-
 
         Document doc = new Document(); 
         doc.setRootElement(new Element("PeriodicTable"));
@@ -217,39 +175,8 @@ public class PeriodictableparserProvider {
     * @param elementList This is a list of the parsed data.
     * @return void This method does not return anything. 
     */
-    private void writeJSONFile(String writeFile, List<PeriodicElement> elementList) throws IOException
+    private void createJSONFile(String writeFile, List<PeriodicElement> elementList) throws IOException
     {
-        LOG.info("PeriodictableparserProvider:-- got here 4");
-
-       /* for(PeriodicElement e : elementList){
-            LOG.info(e.getAtomicNum());
-            LOG.info(e.getPeriod());
-            LOG.info(e.getGroup());
-            LOG.info(e.getIsotopes());
-            LOG.info(e.getYrOfDiscovery());
-            LOG.info(e.getDisplayRow());
-            LOG.info(e.getDisplayCol());
-            LOG.info(e.getAtomicWeight());
-            LOG.info(e.getAtomicRadius());
-            LOG.info(e.getElectronegativity());
-            LOG.info(e.getFirstIonizedPotential());
-            LOG.info(e.getMeltingPt());
-            LOG.info(e.getBoilingPt());
-            LOG.info(e.getSpecifcHeatCapacity());
-            LOG.info(e.getElementSymbol());
-            LOG.info(e.getPhase());
-            LOG.info(e.getMstStableCrystal());
-            LOG.info(e.getTypeElement());
-            LOG.info(e.getIonicRadius());
-            LOG.info(e.getDiscoverer());
-            LOG.info(e.getElectronConfig());
-            LOG.info(e.getDensity());
-            LOG.info(e.getElement());
-            LOG.info("----------------------------");
-
-           
-        } */
-           
              JsonFactory jsonData = new JsonFactory(); 
              JsonGenerator writer = jsonData.createGenerator(new File(writeFile),JsonEncoding.UTF8);
              writer.writeStartArray();
