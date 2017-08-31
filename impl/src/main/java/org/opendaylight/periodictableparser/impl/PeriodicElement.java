@@ -11,6 +11,11 @@ package org.opendaylight.periodictableparser.impl;
 
 import com.opencsv.bean.CsvBindByName;
 
+/**
+* The following class is used to model the data from from csv  file. 
+*
+*/
+
 public class PeriodicElement 
 {
     @CsvBindByName(column = "Atomic Number")
