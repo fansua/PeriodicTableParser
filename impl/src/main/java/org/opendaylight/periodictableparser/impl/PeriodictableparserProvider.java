@@ -83,7 +83,7 @@ public class PeriodictableparserProvider {
     * @pararm filePath This is a string reprsentatio of the absolute path of the file to be parsed
     * @return  List<PeriodicElement> This returns a list of the parsed data.
     */
-     private List<PeriodicElement> parseCSV(String filePath)
+     public List<PeriodicElement> parseCSV(String filePath)
     {
         List<PeriodicElement> elementList = null; 
         try{
@@ -106,7 +106,7 @@ public class PeriodictableparserProvider {
     * @param elementList This is a list of the parsed data.
     * @return void This method does not return anything. 
     */
-    private void createXMLFile(String writeFile, List<PeriodicElement> elementList) throws IOException
+    public void createXMLFile(String writeFile, List<PeriodicElement> elementList) throws IOException
      { 
 
         Document doc = new Document(); 
@@ -175,7 +175,7 @@ public class PeriodictableparserProvider {
     * @param elementList This is a list of the parsed data.
     * @return void This method does not return anything. 
     */
-    private void createJSONFile(String writeFile, List<PeriodicElement> elementList) throws IOException
+    public void createJSONFile(String writeFile, List<PeriodicElement> elementList) throws IOException
     {
              JsonFactory jsonData = new JsonFactory(); 
              JsonGenerator writer = jsonData.createGenerator(new File(writeFile),JsonEncoding.UTF8);
