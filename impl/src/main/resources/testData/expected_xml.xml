@@ -1,0 +1,2835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeriodicTable>
+  <Element Name="Hydrogen">
+    <AtomicNumber>1</AtomicNumber>
+    <Symbol>H</Symbol>
+    <AtomicWeight>1.00794</AtomicWeight>
+    <Period>1</Period>
+    <Group>1</Group>
+    <Phase>gas</Phase>
+    <MostStableCrystal />
+    <Type>Nonmetal</Type>
+    <IonicRadius>0.012</IonicRadius>
+    <AtomicRadius>0.79</AtomicRadius>
+    <Electronegativity>2.2</Electronegativity>
+    <FirstIonizationPotential>13.5984</FirstIonizationPotential>
+    <Density>8.988E-5</Density>
+    <MeltingPoint>14.175</MeltingPoint>
+    <BoilingPoint>20.28</BoilingPoint>
+    <Isotopes>3</Isotopes>
+    <Discoverer>Cavendish</Discoverer>
+    <YearOfDiscovery>1766</YearOfDiscovery>
+    <SpecificHeatCapacity>14.304</SpecificHeatCapacity>
+    <ElectronConfiguration>1s1</ElectronConfiguration>
+    <DisplayRow>1</DisplayRow>
+    <DisplayColumn>1</DisplayColumn>
+  </Element>
+  <Element Name="Helium">
+    <AtomicNumber>2</AtomicNumber>
+    <Symbol>He</Symbol>
+    <AtomicWeight>4.002602</AtomicWeight>
+    <Period>1</Period>
+    <Group>18</Group>
+    <Phase>gas</Phase>
+    <MostStableCrystal />
+    <Type>Noble Gas</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.49</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>24.5874</FirstIonizationPotential>
+    <Density>1.785E-4</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>4.22</BoilingPoint>
+    <Isotopes>5</Isotopes>
+    <Discoverer>Janssen</Discoverer>
+    <YearOfDiscovery>1868</YearOfDiscovery>
+    <SpecificHeatCapacity>5.193</SpecificHeatCapacity>
+    <ElectronConfiguration>1s2</ElectronConfiguration>
+    <DisplayRow>1</DisplayRow>
+    <DisplayColumn>18</DisplayColumn>
+  </Element>
+  <Element Name="Lithium">
+    <AtomicNumber>3</AtomicNumber>
+    <Symbol>Li</Symbol>
+    <AtomicWeight>6.941</AtomicWeight>
+    <Period>2</Period>
+    <Group>1</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>bcc</MostStableCrystal>
+    <Type>Alkali Metal</Type>
+    <IonicRadius>0.76</IonicRadius>
+    <AtomicRadius>2.1</AtomicRadius>
+    <Electronegativity>0.98</Electronegativity>
+    <FirstIonizationPotential>5.3917</FirstIonizationPotential>
+    <Density>0.534</Density>
+    <MeltingPoint>453.85</MeltingPoint>
+    <BoilingPoint>1615.0</BoilingPoint>
+    <Isotopes>5</Isotopes>
+    <Discoverer>Arfvedson</Discoverer>
+    <YearOfDiscovery>1817</YearOfDiscovery>
+    <SpecificHeatCapacity>3.582</SpecificHeatCapacity>
+    <ElectronConfiguration>[He] 2s1</ElectronConfiguration>
+    <DisplayRow>2</DisplayRow>
+    <DisplayColumn>1</DisplayColumn>
+  </Element>
+  <Element Name="Beryllium">
+    <AtomicNumber>4</AtomicNumber>
+    <Symbol>Be</Symbol>
+    <AtomicWeight>9.012182</AtomicWeight>
+    <Period>2</Period>
+    <Group>2</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Alkaline Earth Metal</Type>
+    <IonicRadius>0.35</IonicRadius>
+    <AtomicRadius>1.4</AtomicRadius>
+    <Electronegativity>1.57</Electronegativity>
+    <FirstIonizationPotential>9.3227</FirstIonizationPotential>
+    <Density>1.85</Density>
+    <MeltingPoint>1560.15</MeltingPoint>
+    <BoilingPoint>2742.0</BoilingPoint>
+    <Isotopes>6</Isotopes>
+    <Discoverer>Vaulquelin</Discoverer>
+    <YearOfDiscovery>1798</YearOfDiscovery>
+    <SpecificHeatCapacity>1.825</SpecificHeatCapacity>
+    <ElectronConfiguration>[He] 2s2</ElectronConfiguration>
+    <DisplayRow>2</DisplayRow>
+    <DisplayColumn>2</DisplayColumn>
+  </Element>
+  <Element Name="Boron">
+    <AtomicNumber>5</AtomicNumber>
+    <Symbol>B</Symbol>
+    <AtomicWeight>10.811</AtomicWeight>
+    <Period>2</Period>
+    <Group>13</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>rho</MostStableCrystal>
+    <Type>Metalloid</Type>
+    <IonicRadius>0.23</IonicRadius>
+    <AtomicRadius>1.2</AtomicRadius>
+    <Electronegativity>2.04</Electronegativity>
+    <FirstIonizationPotential>8.298</FirstIonizationPotential>
+    <Density>2.34</Density>
+    <MeltingPoint>2573.15</MeltingPoint>
+    <BoilingPoint>4200.0</BoilingPoint>
+    <Isotopes>6</Isotopes>
+    <Discoverer>Gay-Lussac</Discoverer>
+    <YearOfDiscovery>1808</YearOfDiscovery>
+    <SpecificHeatCapacity>1.026</SpecificHeatCapacity>
+    <ElectronConfiguration>[He] 2s2 2p1</ElectronConfiguration>
+    <DisplayRow>2</DisplayRow>
+    <DisplayColumn>13</DisplayColumn>
+  </Element>
+  <Element Name="Carbon">
+    <AtomicNumber>6</AtomicNumber>
+    <Symbol>C</Symbol>
+    <AtomicWeight>12.0107</AtomicWeight>
+    <Period>2</Period>
+    <Group>14</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Nonmetal</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.91</AtomicRadius>
+    <Electronegativity>2.55</Electronegativity>
+    <FirstIonizationPotential>11.2603</FirstIonizationPotential>
+    <Density>2.267</Density>
+    <MeltingPoint>3948.15</MeltingPoint>
+    <BoilingPoint>4300.0</BoilingPoint>
+    <Isotopes>7</Isotopes>
+    <Discoverer>Prehistoric</Discoverer>
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.709</SpecificHeatCapacity>
+    <ElectronConfiguration>[He] 2s2 2p2</ElectronConfiguration>
+    <DisplayRow>2</DisplayRow>
+    <DisplayColumn>14</DisplayColumn>
+  </Element>
+  <Element Name="Nitrogen">
+    <AtomicNumber>7</AtomicNumber>
+    <Symbol>N</Symbol>
+    <AtomicWeight>14.0067</AtomicWeight>
+    <Period>2</Period>
+    <Group>15</Group>
+    <Phase>gas</Phase>
+    <MostStableCrystal />
+    <Type>Nonmetal</Type>
+    <IonicRadius>0.13</IonicRadius>
+    <AtomicRadius>0.75</AtomicRadius>
+    <Electronegativity>3.04</Electronegativity>
+    <FirstIonizationPotential>14.5341</FirstIonizationPotential>
+    <Density>0.0012506</Density>
+    <MeltingPoint>63.29</MeltingPoint>
+    <BoilingPoint>77.36</BoilingPoint>
+    <Isotopes>8</Isotopes>
+    <Discoverer>Rutherford</Discoverer>
+    <YearOfDiscovery>1772</YearOfDiscovery>
+    <SpecificHeatCapacity>1.04</SpecificHeatCapacity>
+    <ElectronConfiguration>[He] 2s2 2p3</ElectronConfiguration>
+    <DisplayRow>2</DisplayRow>
+    <DisplayColumn>15</DisplayColumn>
+  </Element>
+  <Element Name="Oxygen">
+    <AtomicNumber>8</AtomicNumber>
+    <Symbol>O</Symbol>
+    <AtomicWeight>15.9994</AtomicWeight>
+    <Period>2</Period>
+    <Group>16</Group>
+    <Phase>gas</Phase>
+    <MostStableCrystal />
+    <Type>Nonmetal</Type>
+    <IonicRadius>1.4</IonicRadius>
+    <AtomicRadius>0.65</AtomicRadius>
+    <Electronegativity>3.44</Electronegativity>
+    <FirstIonizationPotential>13.6181</FirstIonizationPotential>
+    <Density>0.001429</Density>
+    <MeltingPoint>50.5</MeltingPoint>
+    <BoilingPoint>90.2</BoilingPoint>
+    <Isotopes>8</Isotopes>
+    <Discoverer>Priestley/Scheele</Discoverer>
+    <YearOfDiscovery>1774</YearOfDiscovery>
+    <SpecificHeatCapacity>0.918</SpecificHeatCapacity>
+    <ElectronConfiguration>[He] 2s2 2p4</ElectronConfiguration>
+    <DisplayRow>2</DisplayRow>
+    <DisplayColumn>16</DisplayColumn>
+  </Element>
+  <Element Name="Fluorine">
+    <AtomicNumber>9</AtomicNumber>
+    <Symbol>F</Symbol>
+    <AtomicWeight>18.998404</AtomicWeight>
+    <Period>2</Period>
+    <Group>17</Group>
+    <Phase>gas</Phase>
+    <MostStableCrystal />
+    <Type>Halogen</Type>
+    <IonicRadius>1.3</IonicRadius>
+    <AtomicRadius>0.57</AtomicRadius>
+    <Electronegativity>3.98</Electronegativity>
+    <FirstIonizationPotential>17.4228</FirstIonizationPotential>
+    <Density>0.001696</Density>
+    <MeltingPoint>53.63</MeltingPoint>
+    <BoilingPoint>85.03</BoilingPoint>
+    <Isotopes>6</Isotopes>
+    <Discoverer>Moissan</Discoverer>
+    <YearOfDiscovery>1886</YearOfDiscovery>
+    <SpecificHeatCapacity>0.824</SpecificHeatCapacity>
+    <ElectronConfiguration>[He] 2s2 2p5</ElectronConfiguration>
+    <DisplayRow>2</DisplayRow>
+    <DisplayColumn>17</DisplayColumn>
+  </Element>
+  <Element Name="Neon">
+    <AtomicNumber>10</AtomicNumber>
+    <Symbol>Ne</Symbol>
+    <AtomicWeight>20.1797</AtomicWeight>
+    <Period>2</Period>
+    <Group>18</Group>
+    <Phase>gas</Phase>
+    <MostStableCrystal />
+    <Type>Noble Gas</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.51</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>21.5645</FirstIonizationPotential>
+    <Density>8.999E-4</Density>
+    <MeltingPoint>24.703</MeltingPoint>
+    <BoilingPoint>27.07</BoilingPoint>
+    <Isotopes>8</Isotopes>
+    <Discoverer>Ramsay and Travers</Discoverer>
+    <YearOfDiscovery>1898</YearOfDiscovery>
+    <SpecificHeatCapacity>1.03</SpecificHeatCapacity>
+    <ElectronConfiguration>[He] 2s2 2p6</ElectronConfiguration>
+    <DisplayRow>2</DisplayRow>
+    <DisplayColumn>18</DisplayColumn>
+  </Element>
+  <Element Name="Sodium">
+    <AtomicNumber>11</AtomicNumber>
+    <Symbol>Na</Symbol>
+    <AtomicWeight>22.989769</AtomicWeight>
+    <Period>3</Period>
+    <Group>1</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>bcc</MostStableCrystal>
+    <Type>Alkali Metal</Type>
+    <IonicRadius>1.0</IonicRadius>
+    <AtomicRadius>2.2</AtomicRadius>
+    <Electronegativity>0.93</Electronegativity>
+    <FirstIonizationPotential>5.1391</FirstIonizationPotential>
+    <Density>0.971</Density>
+    <MeltingPoint>371.15</MeltingPoint>
+    <BoilingPoint>1156.0</BoilingPoint>
+    <Isotopes>7</Isotopes>
+    <Discoverer>Davy</Discoverer>
+    <YearOfDiscovery>1807</YearOfDiscovery>
+    <SpecificHeatCapacity>1.228</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ne] 3s1</ElectronConfiguration>
+    <DisplayRow>3</DisplayRow>
+    <DisplayColumn>1</DisplayColumn>
+  </Element>
+  <Element Name="Magnesium">
+    <AtomicNumber>12</AtomicNumber>
+    <Symbol>Mg</Symbol>
+    <AtomicWeight>24.305</AtomicWeight>
+    <Period>3</Period>
+    <Group>2</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Alkaline Earth Metal</Type>
+    <IonicRadius>0.72</IonicRadius>
+    <AtomicRadius>1.7</AtomicRadius>
+    <Electronegativity>1.31</Electronegativity>
+    <FirstIonizationPotential>7.6462</FirstIonizationPotential>
+    <Density>1.738</Density>
+    <MeltingPoint>923.15</MeltingPoint>
+    <BoilingPoint>1363.0</BoilingPoint>
+    <Isotopes>8</Isotopes>
+    <Discoverer>Black</Discoverer>
+    <YearOfDiscovery>1755</YearOfDiscovery>
+    <SpecificHeatCapacity>1.023</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ne] 3s2</ElectronConfiguration>
+    <DisplayRow>3</DisplayRow>
+    <DisplayColumn>2</DisplayColumn>
+  </Element>
+  <Element Name="Aluminum">
+    <AtomicNumber>13</AtomicNumber>
+    <Symbol>Al</Symbol>
+    <AtomicWeight>26.981539</AtomicWeight>
+    <Period>3</Period>
+    <Group>13</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Metal</Type>
+    <IonicRadius>0.54</IonicRadius>
+    <AtomicRadius>1.8</AtomicRadius>
+    <Electronegativity>1.61</Electronegativity>
+    <FirstIonizationPotential>5.9858</FirstIonizationPotential>
+    <Density>2.698</Density>
+    <MeltingPoint>933.4</MeltingPoint>
+    <BoilingPoint>2792.0</BoilingPoint>
+    <Isotopes>8</Isotopes>
+    <Discoverer>W�hler</Discoverer>
+    <YearOfDiscovery>1827</YearOfDiscovery>
+    <SpecificHeatCapacity>0.897</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ne] 3s2 3p1</ElectronConfiguration>
+    <DisplayRow>3</DisplayRow>
+    <DisplayColumn>13</DisplayColumn>
+  </Element>
+  <Element Name="Silicon">
+    <AtomicNumber>14</AtomicNumber>
+    <Symbol>Si</Symbol>
+    <AtomicWeight>28.0855</AtomicWeight>
+    <Period>3</Period>
+    <Group>14</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Metalloid</Type>
+    <IonicRadius>0.4</IonicRadius>
+    <AtomicRadius>1.5</AtomicRadius>
+    <Electronegativity>1.9</Electronegativity>
+    <FirstIonizationPotential>8.1517</FirstIonizationPotential>
+    <Density>2.3296</Density>
+    <MeltingPoint>1683.15</MeltingPoint>
+    <BoilingPoint>3538.0</BoilingPoint>
+    <Isotopes>8</Isotopes>
+    <Discoverer>Berzelius</Discoverer>
+    <YearOfDiscovery>1824</YearOfDiscovery>
+    <SpecificHeatCapacity>0.705</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ne] 3s2 3p2</ElectronConfiguration>
+    <DisplayRow>3</DisplayRow>
+    <DisplayColumn>14</DisplayColumn>
+  </Element>
+  <Element Name="Phosphorus">
+    <AtomicNumber>15</AtomicNumber>
+    <Symbol>P</Symbol>
+    <AtomicWeight>30.973763</AtomicWeight>
+    <Period>3</Period>
+    <Group>15</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>cub</MostStableCrystal>
+    <Type>Nonmetal</Type>
+    <IonicRadius>0.38</IonicRadius>
+    <AtomicRadius>1.2</AtomicRadius>
+    <Electronegativity>2.19</Electronegativity>
+    <FirstIonizationPotential>10.4867</FirstIonizationPotential>
+    <Density>1.82</Density>
+    <MeltingPoint>317.25</MeltingPoint>
+    <BoilingPoint>553.0</BoilingPoint>
+    <Isotopes>7</Isotopes>
+    <Discoverer>BranBrand</Discoverer>
+    <YearOfDiscovery>1669</YearOfDiscovery>
+    <SpecificHeatCapacity>0.769</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ne] 3s2 3p3</ElectronConfiguration>
+    <DisplayRow>3</DisplayRow>
+    <DisplayColumn>15</DisplayColumn>
+  </Element>
+  <Element Name="Sulfur">
+    <AtomicNumber>16</AtomicNumber>
+    <Symbol>S</Symbol>
+    <AtomicWeight>32.065</AtomicWeight>
+    <Period>3</Period>
+    <Group>16</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>orth</MostStableCrystal>
+    <Type>Nonmetal</Type>
+    <IonicRadius>0.37</IonicRadius>
+    <AtomicRadius>1.1</AtomicRadius>
+    <Electronegativity>2.58</Electronegativity>
+    <FirstIonizationPotential>10.36</FirstIonizationPotential>
+    <Density>2.067</Density>
+    <MeltingPoint>388.51</MeltingPoint>
+    <BoilingPoint>717.8</BoilingPoint>
+    <Isotopes>10</Isotopes>
+    <Discoverer>Prehistoric</Discoverer>
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.71</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ne] 3s2 3p4</ElectronConfiguration>
+    <DisplayRow>3</DisplayRow>
+    <DisplayColumn>16</DisplayColumn>
+  </Element>
+  <Element Name="Chlorine">
+    <AtomicNumber>17</AtomicNumber>
+    <Symbol>Cl</Symbol>
+    <AtomicWeight>35.453</AtomicWeight>
+    <Period>3</Period>
+    <Group>17</Group>
+    <Phase>gas</Phase>
+    <MostStableCrystal />
+    <Type>Halogen</Type>
+    <IonicRadius>1.8</IonicRadius>
+    <AtomicRadius>0.97</AtomicRadius>
+    <Electronegativity>3.16</Electronegativity>
+    <FirstIonizationPotential>12.9676</FirstIonizationPotential>
+    <Density>0.003214</Density>
+    <MeltingPoint>172.31</MeltingPoint>
+    <BoilingPoint>239.11</BoilingPoint>
+    <Isotopes>11</Isotopes>
+    <Discoverer>Scheele</Discoverer>
+    <YearOfDiscovery>1774</YearOfDiscovery>
+    <SpecificHeatCapacity>0.479</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ne] 3s2 3p5</ElectronConfiguration>
+    <DisplayRow>3</DisplayRow>
+    <DisplayColumn>17</DisplayColumn>
+  </Element>
+  <Element Name="Argon">
+    <AtomicNumber>18</AtomicNumber>
+    <Symbol>Ar</Symbol>
+    <AtomicWeight>39.948</AtomicWeight>
+    <Period>3</Period>
+    <Group>18</Group>
+    <Phase>gas</Phase>
+    <MostStableCrystal />
+    <Type>Noble Gas</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.88</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>15.7596</FirstIonizationPotential>
+    <Density>0.0017837</Density>
+    <MeltingPoint>83.96</MeltingPoint>
+    <BoilingPoint>87.3</BoilingPoint>
+    <Isotopes>8</Isotopes>
+    <Discoverer>Rayleigh and Ramsay</Discoverer>
+    <YearOfDiscovery>1894</YearOfDiscovery>
+    <SpecificHeatCapacity>0.52</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ne] 3s2 3p6</ElectronConfiguration>
+    <DisplayRow>3</DisplayRow>
+    <DisplayColumn>18</DisplayColumn>
+  </Element>
+  <Element Name="Potassium">
+    <AtomicNumber>19</AtomicNumber>
+    <Symbol>K</Symbol>
+    <AtomicWeight>39.0983</AtomicWeight>
+    <Period>4</Period>
+    <Group>1</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>bcc</MostStableCrystal>
+    <Type>Alkali Metal</Type>
+    <IonicRadius>1.4</IonicRadius>
+    <AtomicRadius>2.8</AtomicRadius>
+    <Electronegativity>0.82</Electronegativity>
+    <FirstIonizationPotential>4.3407</FirstIonizationPotential>
+    <Density>0.862</Density>
+    <MeltingPoint>336.5</MeltingPoint>
+    <BoilingPoint>1032.0</BoilingPoint>
+    <Isotopes>10</Isotopes>
+    <Discoverer>Davy</Discoverer>
+    <YearOfDiscovery>1807</YearOfDiscovery>
+    <SpecificHeatCapacity>0.757</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 4s1</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>1</DisplayColumn>
+  </Element>
+  <Element Name="Calcium">
+    <AtomicNumber>20</AtomicNumber>
+    <Symbol>Ca</Symbol>
+    <AtomicWeight>40.078</AtomicWeight>
+    <Period>4</Period>
+    <Group>2</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Alkaline Earth Metal</Type>
+    <IonicRadius>0.99</IonicRadius>
+    <AtomicRadius>2.2</AtomicRadius>
+    <Electronegativity>1.0</Electronegativity>
+    <FirstIonizationPotential>6.1132</FirstIonizationPotential>
+    <Density>1.54</Density>
+    <MeltingPoint>1112.15</MeltingPoint>
+    <BoilingPoint>1757.0</BoilingPoint>
+    <Isotopes>14</Isotopes>
+    <Discoverer>Davy</Discoverer>
+    <YearOfDiscovery>1808</YearOfDiscovery>
+    <SpecificHeatCapacity>0.647</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 4s2</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>2</DisplayColumn>
+  </Element>
+  <Element Name="Scandium">
+    <AtomicNumber>21</AtomicNumber>
+    <Symbol>Sc</Symbol>
+    <AtomicWeight>44.955914</AtomicWeight>
+    <Period>4</Period>
+    <Group>3</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.75</IonicRadius>
+    <AtomicRadius>2.1</AtomicRadius>
+    <Electronegativity>1.36</Electronegativity>
+    <FirstIonizationPotential>6.5615</FirstIonizationPotential>
+    <Density>2.989</Density>
+    <MeltingPoint>1812.15</MeltingPoint>
+    <BoilingPoint>3109.0</BoilingPoint>
+    <Isotopes>15</Isotopes>
+    <Discoverer>Nilson</Discoverer>
+    <YearOfDiscovery>1878</YearOfDiscovery>
+    <SpecificHeatCapacity>0.568</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 3d1 4s2</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>3</DisplayColumn>
+  </Element>
+  <Element Name="Titanium">
+    <AtomicNumber>22</AtomicNumber>
+    <Symbol>Ti</Symbol>
+    <AtomicWeight>47.867</AtomicWeight>
+    <Period>4</Period>
+    <Group>4</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.61</IonicRadius>
+    <AtomicRadius>2.0</AtomicRadius>
+    <Electronegativity>1.54</Electronegativity>
+    <FirstIonizationPotential>6.8281</FirstIonizationPotential>
+    <Density>4.54</Density>
+    <MeltingPoint>1933.15</MeltingPoint>
+    <BoilingPoint>3560.0</BoilingPoint>
+    <Isotopes>9</Isotopes>
+    <Discoverer>Gregor</Discoverer>
+    <YearOfDiscovery>1791</YearOfDiscovery>
+    <SpecificHeatCapacity>0.523</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 3d2 4s2</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>4</DisplayColumn>
+  </Element>
+  <Element Name="Vanadium">
+    <AtomicNumber>23</AtomicNumber>
+    <Symbol>V</Symbol>
+    <AtomicWeight>50.9415</AtomicWeight>
+    <Period>4</Period>
+    <Group>5</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>bcc</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.59</IonicRadius>
+    <AtomicRadius>1.9</AtomicRadius>
+    <Electronegativity>1.63</Electronegativity>
+    <FirstIonizationPotential>6.7462</FirstIonizationPotential>
+    <Density>6.11</Density>
+    <MeltingPoint>2175.15</MeltingPoint>
+    <BoilingPoint>3680.0</BoilingPoint>
+    <Isotopes>9</Isotopes>
+    <Discoverer>del Rio</Discoverer>
+    <YearOfDiscovery>1801</YearOfDiscovery>
+    <SpecificHeatCapacity>0.489</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 3d3 4s2</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>5</DisplayColumn>
+  </Element>
+  <Element Name="Chromium">
+    <AtomicNumber>24</AtomicNumber>
+    <Symbol>Cr</Symbol>
+    <AtomicWeight>51.9961</AtomicWeight>
+    <Period>4</Period>
+    <Group>6</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>bcc</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.52</IonicRadius>
+    <AtomicRadius>1.9</AtomicRadius>
+    <Electronegativity>1.66</Electronegativity>
+    <FirstIonizationPotential>6.7665</FirstIonizationPotential>
+    <Density>7.15</Density>
+    <MeltingPoint>2130.15</MeltingPoint>
+    <BoilingPoint>2944.0</BoilingPoint>
+    <Isotopes>9</Isotopes>
+    <Discoverer>Vauquelin</Discoverer>
+    <YearOfDiscovery>1797</YearOfDiscovery>
+    <SpecificHeatCapacity>0.449</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 3d5 4s1</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>6</DisplayColumn>
+  </Element>
+  <Element Name="Manganese">
+    <AtomicNumber>25</AtomicNumber>
+    <Symbol>Mn</Symbol>
+    <AtomicWeight>54.938046</AtomicWeight>
+    <Period>4</Period>
+    <Group>7</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>bcc</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.46</IonicRadius>
+    <AtomicRadius>1.8</AtomicRadius>
+    <Electronegativity>1.55</Electronegativity>
+    <FirstIonizationPotential>7.434</FirstIonizationPotential>
+    <Density>7.44</Density>
+    <MeltingPoint>1519.15</MeltingPoint>
+    <BoilingPoint>2334.0</BoilingPoint>
+    <Isotopes>11</Isotopes>
+    <Discoverer>Gahn, Scheele</Discoverer>
+    <YearOfDiscovery>1774</YearOfDiscovery>
+    <SpecificHeatCapacity>0.479</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 3d5 4s2</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>7</DisplayColumn>
+  </Element>
+  <Element Name="Iron">
+    <AtomicNumber>26</AtomicNumber>
+    <Symbol>Fe</Symbol>
+    <AtomicWeight>55.845</AtomicWeight>
+    <Period>4</Period>
+    <Group>8</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>bcc</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.65</IonicRadius>
+    <AtomicRadius>1.7</AtomicRadius>
+    <Electronegativity>1.83</Electronegativity>
+    <FirstIonizationPotential>7.9024</FirstIonizationPotential>
+    <Density>7.874</Density>
+    <MeltingPoint>1808.15</MeltingPoint>
+    <BoilingPoint>3134.0</BoilingPoint>
+    <Isotopes>10</Isotopes>
+    <Discoverer>Prehistoric</Discoverer>
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.449</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 3d6 4s2</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>8</DisplayColumn>
+  </Element>
+  <Element Name="Cobalt">
+    <AtomicNumber>27</AtomicNumber>
+    <Symbol>Co</Symbol>
+    <AtomicWeight>58.933193</AtomicWeight>
+    <Period>4</Period>
+    <Group>9</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.75</IonicRadius>
+    <AtomicRadius>1.7</AtomicRadius>
+    <Electronegativity>1.88</Electronegativity>
+    <FirstIonizationPotential>7.881</FirstIonizationPotential>
+    <Density>8.86</Density>
+    <MeltingPoint>1768.15</MeltingPoint>
+    <BoilingPoint>3200.0</BoilingPoint>
+    <Isotopes>14</Isotopes>
+    <Discoverer>Brandt</Discoverer>
+    <YearOfDiscovery>1735</YearOfDiscovery>
+    <SpecificHeatCapacity>0.421</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 3d7 4s2</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>9</DisplayColumn>
+  </Element>
+  <Element Name="Nickel">
+    <AtomicNumber>28</AtomicNumber>
+    <Symbol>Ni</Symbol>
+    <AtomicWeight>58.6934</AtomicWeight>
+    <Period>4</Period>
+    <Group>10</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.69</IonicRadius>
+    <AtomicRadius>1.6</AtomicRadius>
+    <Electronegativity>1.91</Electronegativity>
+    <FirstIonizationPotential>7.6398</FirstIonizationPotential>
+    <Density>8.912</Density>
+    <MeltingPoint>1726.15</MeltingPoint>
+    <BoilingPoint>3186.0</BoilingPoint>
+    <Isotopes>11</Isotopes>
+    <Discoverer>Cronstedt</Discoverer>
+    <YearOfDiscovery>1751</YearOfDiscovery>
+    <SpecificHeatCapacity>0.444</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 3d8 4s2</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>10</DisplayColumn>
+  </Element>
+  <Element Name="Copper">
+    <AtomicNumber>29</AtomicNumber>
+    <Symbol>Cu</Symbol>
+    <AtomicWeight>63.546</AtomicWeight>
+    <Period>4</Period>
+    <Group>11</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.73</IonicRadius>
+    <AtomicRadius>1.6</AtomicRadius>
+    <Electronegativity>1.9</Electronegativity>
+    <FirstIonizationPotential>7.7264</FirstIonizationPotential>
+    <Density>8.96</Density>
+    <MeltingPoint>1357.75</MeltingPoint>
+    <BoilingPoint>2835.0</BoilingPoint>
+    <Isotopes>11</Isotopes>
+    <Discoverer>Prehistoric</Discoverer>
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.385</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 3d10 4s1</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>11</DisplayColumn>
+  </Element>
+  <Element Name="Zinc">
+    <AtomicNumber>30</AtomicNumber>
+    <Symbol>Zn</Symbol>
+    <AtomicWeight>65.38</AtomicWeight>
+    <Period>4</Period>
+    <Group>12</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.74</IonicRadius>
+    <AtomicRadius>1.5</AtomicRadius>
+    <Electronegativity>1.65</Electronegativity>
+    <FirstIonizationPotential>9.3942</FirstIonizationPotential>
+    <Density>7.134</Density>
+    <MeltingPoint>692.88</MeltingPoint>
+    <BoilingPoint>1180.0</BoilingPoint>
+    <Isotopes>15</Isotopes>
+    <Discoverer>Prehistoric</Discoverer>
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.388</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 3d10 4s2</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>12</DisplayColumn>
+  </Element>
+  <Element Name="Gallium">
+    <AtomicNumber>31</AtomicNumber>
+    <Symbol>Ga</Symbol>
+    <AtomicWeight>69.723</AtomicWeight>
+    <Period>4</Period>
+    <Group>13</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>orth</MostStableCrystal>
+    <Type>Metal</Type>
+    <IonicRadius>0.62</IonicRadius>
+    <AtomicRadius>1.8</AtomicRadius>
+    <Electronegativity>1.81</Electronegativity>
+    <FirstIonizationPotential>5.9993</FirstIonizationPotential>
+    <Density>5.907</Density>
+    <MeltingPoint>302.91</MeltingPoint>
+    <BoilingPoint>2477.0</BoilingPoint>
+    <Isotopes>14</Isotopes>
+    <Discoverer>de Boisbaudran</Discoverer>
+    <YearOfDiscovery>1875</YearOfDiscovery>
+    <SpecificHeatCapacity>0.371</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 3d10 4s2 4p1</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>13</DisplayColumn>
+  </Element>
+  <Element Name="Germanium">
+    <AtomicNumber>32</AtomicNumber>
+    <Symbol>Ge</Symbol>
+    <AtomicWeight>72.64</AtomicWeight>
+    <Period>4</Period>
+    <Group>14</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Metalloid</Type>
+    <IonicRadius>0.53</IonicRadius>
+    <AtomicRadius>1.5</AtomicRadius>
+    <Electronegativity>2.01</Electronegativity>
+    <FirstIonizationPotential>7.8994</FirstIonizationPotential>
+    <Density>5.323</Density>
+    <MeltingPoint>1211.45</MeltingPoint>
+    <BoilingPoint>3106.0</BoilingPoint>
+    <Isotopes>17</Isotopes>
+    <Discoverer>Winkler</Discoverer>
+    <YearOfDiscovery>1886</YearOfDiscovery>
+    <SpecificHeatCapacity>0.32</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 3d10 4s2 4p2</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>14</DisplayColumn>
+  </Element>
+  <Element Name="Arsenic">
+    <AtomicNumber>33</AtomicNumber>
+    <Symbol>As</Symbol>
+    <AtomicWeight>74.9216</AtomicWeight>
+    <Period>4</Period>
+    <Group>15</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>rho</MostStableCrystal>
+    <Type>Metalloid</Type>
+    <IonicRadius>0.58</IonicRadius>
+    <AtomicRadius>1.3</AtomicRadius>
+    <Electronegativity>2.18</Electronegativity>
+    <FirstIonizationPotential>9.7886</FirstIonizationPotential>
+    <Density>5.776</Density>
+    <MeltingPoint>1090.15</MeltingPoint>
+    <BoilingPoint>887.0</BoilingPoint>
+    <Isotopes>14</Isotopes>
+    <Discoverer>Albertus Magnus</Discoverer>
+    <YearOfDiscovery>1250</YearOfDiscovery>
+    <SpecificHeatCapacity>0.329</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 3d10 4s2 4p3</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>15</DisplayColumn>
+  </Element>
+  <Element Name="Selenium">
+    <AtomicNumber>34</AtomicNumber>
+    <Symbol>Se</Symbol>
+    <AtomicWeight>78.96</AtomicWeight>
+    <Period>4</Period>
+    <Group>16</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Nonmetal</Type>
+    <IonicRadius>0.5</IonicRadius>
+    <AtomicRadius>1.2</AtomicRadius>
+    <Electronegativity>2.55</Electronegativity>
+    <FirstIonizationPotential>9.7524</FirstIonizationPotential>
+    <Density>4.809</Density>
+    <MeltingPoint>494.15</MeltingPoint>
+    <BoilingPoint>958.0</BoilingPoint>
+    <Isotopes>20</Isotopes>
+    <Discoverer>Berzelius</Discoverer>
+    <YearOfDiscovery>1817</YearOfDiscovery>
+    <SpecificHeatCapacity>0.321</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 3d10 4s2 4p4</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>16</DisplayColumn>
+  </Element>
+  <Element Name="Bromine">
+    <AtomicNumber>35</AtomicNumber>
+    <Symbol>Br</Symbol>
+    <AtomicWeight>79.904</AtomicWeight>
+    <Period>4</Period>
+    <Group>17</Group>
+    <Phase>liq</Phase>
+    <MostStableCrystal />
+    <Type>Halogen</Type>
+    <IonicRadius>2.0</IonicRadius>
+    <AtomicRadius>1.1</AtomicRadius>
+    <Electronegativity>2.96</Electronegativity>
+    <FirstIonizationPotential>11.8138</FirstIonizationPotential>
+    <Density>3.122</Density>
+    <MeltingPoint>266.05</MeltingPoint>
+    <BoilingPoint>332.0</BoilingPoint>
+    <Isotopes>19</Isotopes>
+    <Discoverer>Balard</Discoverer>
+    <YearOfDiscovery>1826</YearOfDiscovery>
+    <SpecificHeatCapacity>0.474</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 3d10 4s2 4p5</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>17</DisplayColumn>
+  </Element>
+  <Element Name="Krypton">
+    <AtomicNumber>36</AtomicNumber>
+    <Symbol>Kr</Symbol>
+    <AtomicWeight>83.798</AtomicWeight>
+    <Period>4</Period>
+    <Group>18</Group>
+    <Phase>gas</Phase>
+    <MostStableCrystal />
+    <Type>Noble Gas</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>1.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>13.9996</FirstIonizationPotential>
+    <Density>0.003733</Density>
+    <MeltingPoint>115.93</MeltingPoint>
+    <BoilingPoint>119.93</BoilingPoint>
+    <Isotopes>23</Isotopes>
+    <Discoverer>Ramsay and Travers</Discoverer>
+    <YearOfDiscovery>1898</YearOfDiscovery>
+    <SpecificHeatCapacity>0.248</SpecificHeatCapacity>
+    <ElectronConfiguration>[Ar] 3d10 4s2 4p6</ElectronConfiguration>
+    <DisplayRow>4</DisplayRow>
+    <DisplayColumn>18</DisplayColumn>
+  </Element>
+  <Element Name="Rubidium">
+    <AtomicNumber>37</AtomicNumber>
+    <Symbol>Rb</Symbol>
+    <AtomicWeight>85.4678</AtomicWeight>
+    <Period>5</Period>
+    <Group>1</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>bcc</MostStableCrystal>
+    <Type>Alkali Metal</Type>
+    <IonicRadius>1.5</IonicRadius>
+    <AtomicRadius>3.0</AtomicRadius>
+    <Electronegativity>0.82</Electronegativity>
+    <FirstIonizationPotential>4.1771</FirstIonizationPotential>
+    <Density>1.532</Density>
+    <MeltingPoint>312.79</MeltingPoint>
+    <BoilingPoint>961.0</BoilingPoint>
+    <Isotopes>20</Isotopes>
+    <Discoverer>Bunsen and Kirchoff</Discoverer>
+    <YearOfDiscovery>1861</YearOfDiscovery>
+    <SpecificHeatCapacity>0.363</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 5s1</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>1</DisplayColumn>
+  </Element>
+  <Element Name="Strontium">
+    <AtomicNumber>38</AtomicNumber>
+    <Symbol>Sr</Symbol>
+    <AtomicWeight>87.62</AtomicWeight>
+    <Period>5</Period>
+    <Group>2</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Alkaline Earth Metal</Type>
+    <IonicRadius>1.1</IonicRadius>
+    <AtomicRadius>2.5</AtomicRadius>
+    <Electronegativity>0.95</Electronegativity>
+    <FirstIonizationPotential>5.6949</FirstIonizationPotential>
+    <Density>2.64</Density>
+    <MeltingPoint>1042.15</MeltingPoint>
+    <BoilingPoint>1655.0</BoilingPoint>
+    <Isotopes>18</Isotopes>
+    <Discoverer>Davy</Discoverer>
+    <YearOfDiscovery>1808</YearOfDiscovery>
+    <SpecificHeatCapacity>0.301</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 5s2</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>2</DisplayColumn>
+  </Element>
+  <Element Name="Yttrium">
+    <AtomicNumber>39</AtomicNumber>
+    <Symbol>Y</Symbol>
+    <AtomicWeight>88.90585</AtomicWeight>
+    <Period>5</Period>
+    <Group>3</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.9</IonicRadius>
+    <AtomicRadius>2.3</AtomicRadius>
+    <Electronegativity>1.22</Electronegativity>
+    <FirstIonizationPotential>6.2173</FirstIonizationPotential>
+    <Density>4.469</Density>
+    <MeltingPoint>1799.15</MeltingPoint>
+    <BoilingPoint>3609.0</BoilingPoint>
+    <Isotopes>21</Isotopes>
+    <Discoverer>Gadolin</Discoverer>
+    <YearOfDiscovery>1794</YearOfDiscovery>
+    <SpecificHeatCapacity>0.298</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 4d1 5s2</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>3</DisplayColumn>
+  </Element>
+  <Element Name="Zirconium">
+    <AtomicNumber>40</AtomicNumber>
+    <Symbol>Zr</Symbol>
+    <AtomicWeight>91.224</AtomicWeight>
+    <Period>5</Period>
+    <Group>4</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.72</IonicRadius>
+    <AtomicRadius>2.2</AtomicRadius>
+    <Electronegativity>1.33</Electronegativity>
+    <FirstIonizationPotential>6.6339</FirstIonizationPotential>
+    <Density>6.506</Density>
+    <MeltingPoint>2125.15</MeltingPoint>
+    <BoilingPoint>4682.0</BoilingPoint>
+    <Isotopes>20</Isotopes>
+    <Discoverer>Klaproth</Discoverer>
+    <YearOfDiscovery>1789</YearOfDiscovery>
+    <SpecificHeatCapacity>0.278</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 4d2 5s2</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>4</DisplayColumn>
+  </Element>
+  <Element Name="Niobium">
+    <AtomicNumber>41</AtomicNumber>
+    <Symbol>Nb</Symbol>
+    <AtomicWeight>92.90638</AtomicWeight>
+    <Period>5</Period>
+    <Group>5</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>bcc</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.69</IonicRadius>
+    <AtomicRadius>2.1</AtomicRadius>
+    <Electronegativity>1.6</Electronegativity>
+    <FirstIonizationPotential>6.7589</FirstIonizationPotential>
+    <Density>8.57</Density>
+    <MeltingPoint>2741.15</MeltingPoint>
+    <BoilingPoint>5017.0</BoilingPoint>
+    <Isotopes>24</Isotopes>
+    <Discoverer>Hatchett</Discoverer>
+    <YearOfDiscovery>1801</YearOfDiscovery>
+    <SpecificHeatCapacity>0.265</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 4d4 5s1</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>5</DisplayColumn>
+  </Element>
+  <Element Name="Molybdenum">
+    <AtomicNumber>42</AtomicNumber>
+    <Symbol>Mo</Symbol>
+    <AtomicWeight>95.96</AtomicWeight>
+    <Period>5</Period>
+    <Group>6</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>bcc</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.65</IonicRadius>
+    <AtomicRadius>2.0</AtomicRadius>
+    <Electronegativity>2.16</Electronegativity>
+    <FirstIonizationPotential>7.0924</FirstIonizationPotential>
+    <Density>10.22</Density>
+    <MeltingPoint>2890.15</MeltingPoint>
+    <BoilingPoint>4912.0</BoilingPoint>
+    <Isotopes>20</Isotopes>
+    <Discoverer>Scheele</Discoverer>
+    <YearOfDiscovery>1778</YearOfDiscovery>
+    <SpecificHeatCapacity>0.251</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 4d5 5s1</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>6</DisplayColumn>
+  </Element>
+  <Element Name="Technetium">
+    <AtomicNumber>43</AtomicNumber>
+    <Symbol>Tc</Symbol>
+    <AtomicWeight>98.0</AtomicWeight>
+    <Period>5</Period>
+    <Group>7</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.56</IonicRadius>
+    <AtomicRadius>2.0</AtomicRadius>
+    <Electronegativity>1.9</Electronegativity>
+    <FirstIonizationPotential>7.28</FirstIonizationPotential>
+    <Density>11.5</Density>
+    <MeltingPoint>2473.15</MeltingPoint>
+    <BoilingPoint>5150.0</BoilingPoint>
+    <Isotopes>23</Isotopes>
+    <Discoverer>Perrier and Segr�</Discoverer>
+    <YearOfDiscovery>1937</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 4d5 5s2</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>7</DisplayColumn>
+  </Element>
+  <Element Name="Ruthenium">
+    <AtomicNumber>44</AtomicNumber>
+    <Symbol>Ru</Symbol>
+    <AtomicWeight>101.07</AtomicWeight>
+    <Period>5</Period>
+    <Group>8</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.68</IonicRadius>
+    <AtomicRadius>1.9</AtomicRadius>
+    <Electronegativity>2.2</Electronegativity>
+    <FirstIonizationPotential>7.3605</FirstIonizationPotential>
+    <Density>12.37</Density>
+    <MeltingPoint>2523.15</MeltingPoint>
+    <BoilingPoint>4423.0</BoilingPoint>
+    <Isotopes>16</Isotopes>
+    <Discoverer>Klaus</Discoverer>
+    <YearOfDiscovery>1844</YearOfDiscovery>
+    <SpecificHeatCapacity>0.238</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 4d7 5s1</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>8</DisplayColumn>
+  </Element>
+  <Element Name="Rhodium">
+    <AtomicNumber>45</AtomicNumber>
+    <Symbol>Rh</Symbol>
+    <AtomicWeight>102.9055</AtomicWeight>
+    <Period>5</Period>
+    <Group>9</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.68</IonicRadius>
+    <AtomicRadius>1.8</AtomicRadius>
+    <Electronegativity>2.28</Electronegativity>
+    <FirstIonizationPotential>7.4589</FirstIonizationPotential>
+    <Density>12.41</Density>
+    <MeltingPoint>2239.15</MeltingPoint>
+    <BoilingPoint>3968.0</BoilingPoint>
+    <Isotopes>20</Isotopes>
+    <Discoverer>Wollaston</Discoverer>
+    <YearOfDiscovery>1803</YearOfDiscovery>
+    <SpecificHeatCapacity>0.243</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 4d8 5s1</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>9</DisplayColumn>
+  </Element>
+  <Element Name="Palladium">
+    <AtomicNumber>46</AtomicNumber>
+    <Symbol>Pd</Symbol>
+    <AtomicWeight>106.42</AtomicWeight>
+    <Period>5</Period>
+    <Group>10</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.86</IonicRadius>
+    <AtomicRadius>1.8</AtomicRadius>
+    <Electronegativity>2.2</Electronegativity>
+    <FirstIonizationPotential>8.3369</FirstIonizationPotential>
+    <Density>12.02</Density>
+    <MeltingPoint>1825.15</MeltingPoint>
+    <BoilingPoint>3236.0</BoilingPoint>
+    <Isotopes>21</Isotopes>
+    <Discoverer>Wollaston</Discoverer>
+    <YearOfDiscovery>1803</YearOfDiscovery>
+    <SpecificHeatCapacity>0.244</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 4d10</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>10</DisplayColumn>
+  </Element>
+  <Element Name="Silver">
+    <AtomicNumber>47</AtomicNumber>
+    <Symbol>Ag</Symbol>
+    <AtomicWeight>107.8682</AtomicWeight>
+    <Period>5</Period>
+    <Group>11</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>1.3</IonicRadius>
+    <AtomicRadius>1.8</AtomicRadius>
+    <Electronegativity>1.93</Electronegativity>
+    <FirstIonizationPotential>7.5762</FirstIonizationPotential>
+    <Density>10.501</Density>
+    <MeltingPoint>1234.15</MeltingPoint>
+    <BoilingPoint>2435.0</BoilingPoint>
+    <Isotopes>27</Isotopes>
+    <Discoverer>Prehistoric</Discoverer>
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.235</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 4d10 5s1</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>11</DisplayColumn>
+  </Element>
+  <Element Name="Cadmium">
+    <AtomicNumber>48</AtomicNumber>
+    <Symbol>Cd</Symbol>
+    <AtomicWeight>112.411</AtomicWeight>
+    <Period>5</Period>
+    <Group>12</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.97</IonicRadius>
+    <AtomicRadius>1.7</AtomicRadius>
+    <Electronegativity>1.69</Electronegativity>
+    <FirstIonizationPotential>8.9938</FirstIonizationPotential>
+    <Density>8.69</Density>
+    <MeltingPoint>594.33</MeltingPoint>
+    <BoilingPoint>1040.0</BoilingPoint>
+    <Isotopes>22</Isotopes>
+    <Discoverer>Stromeyer</Discoverer>
+    <YearOfDiscovery>1817</YearOfDiscovery>
+    <SpecificHeatCapacity>0.232</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 4d10 5s2</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>12</DisplayColumn>
+  </Element>
+  <Element Name="Indium">
+    <AtomicNumber>49</AtomicNumber>
+    <Symbol>In</Symbol>
+    <AtomicWeight>114.818</AtomicWeight>
+    <Period>5</Period>
+    <Group>13</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>tet</MostStableCrystal>
+    <Type>Metal</Type>
+    <IonicRadius>0.8</IonicRadius>
+    <AtomicRadius>2.0</AtomicRadius>
+    <Electronegativity>1.78</Electronegativity>
+    <FirstIonizationPotential>5.7864</FirstIonizationPotential>
+    <Density>7.31</Density>
+    <MeltingPoint>429.91</MeltingPoint>
+    <BoilingPoint>2345.0</BoilingPoint>
+    <Isotopes>34</Isotopes>
+    <Discoverer>Reich and Richter</Discoverer>
+    <YearOfDiscovery>1863</YearOfDiscovery>
+    <SpecificHeatCapacity>0.233</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 4d10 5s2 5p1</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>13</DisplayColumn>
+  </Element>
+  <Element Name="Tin">
+    <AtomicNumber>50</AtomicNumber>
+    <Symbol>Sn</Symbol>
+    <AtomicWeight>118.71</AtomicWeight>
+    <Period>5</Period>
+    <Group>14</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>tet</MostStableCrystal>
+    <Type>Metal</Type>
+    <IonicRadius>0.69</IonicRadius>
+    <AtomicRadius>1.7</AtomicRadius>
+    <Electronegativity>1.96</Electronegativity>
+    <FirstIonizationPotential>7.3439</FirstIonizationPotential>
+    <Density>7.287</Density>
+    <MeltingPoint>505.21</MeltingPoint>
+    <BoilingPoint>2875.0</BoilingPoint>
+    <Isotopes>28</Isotopes>
+    <Discoverer>Prehistoric</Discoverer>
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.228</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 4d10 5s2 5p2</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>14</DisplayColumn>
+  </Element>
+  <Element Name="Antimony">
+    <AtomicNumber>51</AtomicNumber>
+    <Symbol>Sb</Symbol>
+    <AtomicWeight>121.76</AtomicWeight>
+    <Period>5</Period>
+    <Group>15</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>rho</MostStableCrystal>
+    <Type>Metalloid</Type>
+    <IonicRadius>0.76</IonicRadius>
+    <AtomicRadius>1.5</AtomicRadius>
+    <Electronegativity>2.05</Electronegativity>
+    <FirstIonizationPotential>8.6084</FirstIonizationPotential>
+    <Density>6.685</Density>
+    <MeltingPoint>904.05</MeltingPoint>
+    <BoilingPoint>1860.0</BoilingPoint>
+    <Isotopes>29</Isotopes>
+    <Discoverer>Early historic times</Discoverer>
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.207</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 4d10 5s2 5p3</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>15</DisplayColumn>
+  </Element>
+  <Element Name="Tellurium">
+    <AtomicNumber>52</AtomicNumber>
+    <Symbol>Te</Symbol>
+    <AtomicWeight>127.6</AtomicWeight>
+    <Period>5</Period>
+    <Group>16</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Metalloid</Type>
+    <IonicRadius>0.97</IonicRadius>
+    <AtomicRadius>1.4</AtomicRadius>
+    <Electronegativity>2.1</Electronegativity>
+    <FirstIonizationPotential>9.0096</FirstIonizationPotential>
+    <Density>6.232</Density>
+    <MeltingPoint>722.8</MeltingPoint>
+    <BoilingPoint>1261.0</BoilingPoint>
+    <Isotopes>29</Isotopes>
+    <Discoverer>von Reichenstein</Discoverer>
+    <YearOfDiscovery>1782</YearOfDiscovery>
+    <SpecificHeatCapacity>0.202</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 4d10 5s2 5p4</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>16</DisplayColumn>
+  </Element>
+  <Element Name="Iodine">
+    <AtomicNumber>53</AtomicNumber>
+    <Symbol>I</Symbol>
+    <AtomicWeight>126.90447</AtomicWeight>
+    <Period>5</Period>
+    <Group>17</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>orth</MostStableCrystal>
+    <Type>Halogen</Type>
+    <IonicRadius>2.2</IonicRadius>
+    <AtomicRadius>1.3</AtomicRadius>
+    <Electronegativity>2.66</Electronegativity>
+    <FirstIonizationPotential>10.4513</FirstIonizationPotential>
+    <Density>4.93</Density>
+    <MeltingPoint>386.65</MeltingPoint>
+    <BoilingPoint>457.4</BoilingPoint>
+    <Isotopes>24</Isotopes>
+    <Discoverer>Courtois</Discoverer>
+    <YearOfDiscovery>1811</YearOfDiscovery>
+    <SpecificHeatCapacity>0.214</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 4d10 5s2 5p5</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>17</DisplayColumn>
+  </Element>
+  <Element Name="Xenon">
+    <AtomicNumber>54</AtomicNumber>
+    <Symbol>Xe</Symbol>
+    <AtomicWeight>131.293</AtomicWeight>
+    <Period>5</Period>
+    <Group>18</Group>
+    <Phase>gas</Phase>
+    <MostStableCrystal>gas</MostStableCrystal>
+    <Type>Noble Gas</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>1.2</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>12.1298</FirstIonizationPotential>
+    <Density>0.005887</Density>
+    <MeltingPoint>161.45</MeltingPoint>
+    <BoilingPoint>165.03</BoilingPoint>
+    <Isotopes>31</Isotopes>
+    <Discoverer>Ramsay and Travers</Discoverer>
+    <YearOfDiscovery>1898</YearOfDiscovery>
+    <SpecificHeatCapacity>0.158</SpecificHeatCapacity>
+    <ElectronConfiguration>[Kr] 4d10 5s2 5p6</ElectronConfiguration>
+    <DisplayRow>5</DisplayRow>
+    <DisplayColumn>18</DisplayColumn>
+  </Element>
+  <Element Name="Cesium">
+    <AtomicNumber>55</AtomicNumber>
+    <Symbol>Cs</Symbol>
+    <AtomicWeight>132.90546</AtomicWeight>
+    <Period>6</Period>
+    <Group>1</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal />
+    <Type>Alkali Metal</Type>
+    <IonicRadius>1.7</IonicRadius>
+    <AtomicRadius>3.3</AtomicRadius>
+    <Electronegativity>0.79</Electronegativity>
+    <FirstIonizationPotential>3.8939</FirstIonizationPotential>
+    <Density>1.873</Density>
+    <MeltingPoint>301.7</MeltingPoint>
+    <BoilingPoint>944.0</BoilingPoint>
+    <Isotopes>22</Isotopes>
+    <Discoverer>Bunsen and Kirchoff</Discoverer>
+    <YearOfDiscovery>1860</YearOfDiscovery>
+    <SpecificHeatCapacity>0.242</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 6s1</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>1</DisplayColumn>
+  </Element>
+  <Element Name="Barium">
+    <AtomicNumber>56</AtomicNumber>
+    <Symbol>Ba</Symbol>
+    <AtomicWeight>137.327</AtomicWeight>
+    <Period>6</Period>
+    <Group>2</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>bcc</MostStableCrystal>
+    <Type>Alkaline Earth Metal</Type>
+    <IonicRadius>1.4</IonicRadius>
+    <AtomicRadius>2.8</AtomicRadius>
+    <Electronegativity>0.89</Electronegativity>
+    <FirstIonizationPotential>5.2117</FirstIonizationPotential>
+    <Density>3.594</Density>
+    <MeltingPoint>1002.15</MeltingPoint>
+    <BoilingPoint>2170.0</BoilingPoint>
+    <Isotopes>25</Isotopes>
+    <Discoverer>Davy</Discoverer>
+    <YearOfDiscovery>1808</YearOfDiscovery>
+    <SpecificHeatCapacity>0.204</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 6s2</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>2</DisplayColumn>
+  </Element>
+  <Element Name="Lanthanum">
+    <AtomicNumber>57</AtomicNumber>
+    <Symbol>La</Symbol>
+    <AtomicWeight>138.90547</AtomicWeight>
+    <Period>6</Period>
+    <Group>3</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Lanthanide</Type>
+    <IonicRadius>1.1</IonicRadius>
+    <AtomicRadius>2.7</AtomicRadius>
+    <Electronegativity>1.1</Electronegativity>
+    <FirstIonizationPotential>5.5769</FirstIonizationPotential>
+    <Density>6.145</Density>
+    <MeltingPoint>1193.15</MeltingPoint>
+    <BoilingPoint>3737.0</BoilingPoint>
+    <Isotopes>19</Isotopes>
+    <Discoverer>Mosander</Discoverer>
+    <YearOfDiscovery>1839</YearOfDiscovery>
+    <SpecificHeatCapacity>0.195</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 5d1 6s2</ElectronConfiguration>
+    <DisplayRow>8</DisplayRow>
+    <DisplayColumn>3</DisplayColumn>
+  </Element>
+  <Element Name="Cerium">
+    <AtomicNumber>58</AtomicNumber>
+    <Symbol>Ce</Symbol>
+    <AtomicWeight>140.116</AtomicWeight>
+    <Period>6</Period>
+    <Group>19</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Lanthanide</Type>
+    <IonicRadius>1.0</IonicRadius>
+    <AtomicRadius>2.7</AtomicRadius>
+    <Electronegativity>1.12</Electronegativity>
+    <FirstIonizationPotential>5.5387</FirstIonizationPotential>
+    <Density>6.77</Density>
+    <MeltingPoint>1071.15</MeltingPoint>
+    <BoilingPoint>3716.0</BoilingPoint>
+    <Isotopes>19</Isotopes>
+    <Discoverer>Berzelius</Discoverer>
+    <YearOfDiscovery>1803</YearOfDiscovery>
+    <SpecificHeatCapacity>0.192</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f1 5d1 6s2</ElectronConfiguration>
+    <DisplayRow>8</DisplayRow>
+    <DisplayColumn>4</DisplayColumn>
+  </Element>
+  <Element Name="Praseodymium">
+    <AtomicNumber>59</AtomicNumber>
+    <Symbol>Pr</Symbol>
+    <AtomicWeight>140.90765</AtomicWeight>
+    <Period>6</Period>
+    <Group>20</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Lanthanide</Type>
+    <IonicRadius>1.0</IonicRadius>
+    <AtomicRadius>2.7</AtomicRadius>
+    <Electronegativity>1.13</Electronegativity>
+    <FirstIonizationPotential>5.473</FirstIonizationPotential>
+    <Density>6.773</Density>
+    <MeltingPoint>1204.15</MeltingPoint>
+    <BoilingPoint>3793.0</BoilingPoint>
+    <Isotopes>15</Isotopes>
+    <Discoverer>von Welsbach</Discoverer>
+    <YearOfDiscovery>1885</YearOfDiscovery>
+    <SpecificHeatCapacity>0.193</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f3 6s2</ElectronConfiguration>
+    <DisplayRow>8</DisplayRow>
+    <DisplayColumn>5</DisplayColumn>
+  </Element>
+  <Element Name="Neodymium">
+    <AtomicNumber>60</AtomicNumber>
+    <Symbol>Nd</Symbol>
+    <AtomicWeight>144.242</AtomicWeight>
+    <Period>6</Period>
+    <Group>21</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Lanthanide</Type>
+    <IonicRadius>1.0</IonicRadius>
+    <AtomicRadius>2.6</AtomicRadius>
+    <Electronegativity>1.14</Electronegativity>
+    <FirstIonizationPotential>5.525</FirstIonizationPotential>
+    <Density>7.007</Density>
+    <MeltingPoint>1289.15</MeltingPoint>
+    <BoilingPoint>3347.0</BoilingPoint>
+    <Isotopes>16</Isotopes>
+    <Discoverer>von Welsbach</Discoverer>
+    <YearOfDiscovery>1885</YearOfDiscovery>
+    <SpecificHeatCapacity>0.19</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f4 6s2</ElectronConfiguration>
+    <DisplayRow>8</DisplayRow>
+    <DisplayColumn>6</DisplayColumn>
+  </Element>
+  <Element Name="Promethium">
+    <AtomicNumber>61</AtomicNumber>
+    <Symbol>Pm</Symbol>
+    <AtomicWeight>145.0</AtomicWeight>
+    <Period>6</Period>
+    <Group>22</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Lanthanide</Type>
+    <IonicRadius>0.98</IonicRadius>
+    <AtomicRadius>2.6</AtomicRadius>
+    <Electronegativity>1.13</Electronegativity>
+    <FirstIonizationPotential>5.582</FirstIonizationPotential>
+    <Density>7.26</Density>
+    <MeltingPoint>1204.15</MeltingPoint>
+    <BoilingPoint>3273.0</BoilingPoint>
+    <Isotopes>14</Isotopes>
+    <Discoverer>Marinsky et al.</Discoverer>
+    <YearOfDiscovery>1945</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f5 6s2</ElectronConfiguration>
+    <DisplayRow>8</DisplayRow>
+    <DisplayColumn>7</DisplayColumn>
+  </Element>
+  <Element Name="Samarium">
+    <AtomicNumber>62</AtomicNumber>
+    <Symbol>Sm</Symbol>
+    <AtomicWeight>150.36</AtomicWeight>
+    <Period>6</Period>
+    <Group>23</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Lanthanide</Type>
+    <IonicRadius>0.96</IonicRadius>
+    <AtomicRadius>2.6</AtomicRadius>
+    <Electronegativity>1.17</Electronegativity>
+    <FirstIonizationPotential>5.6437</FirstIonizationPotential>
+    <Density>7.52</Density>
+    <MeltingPoint>1345.15</MeltingPoint>
+    <BoilingPoint>2067.0</BoilingPoint>
+    <Isotopes>17</Isotopes>
+    <Discoverer>Boisbaudran</Discoverer>
+    <YearOfDiscovery>1879</YearOfDiscovery>
+    <SpecificHeatCapacity>0.197</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f6 6s2</ElectronConfiguration>
+    <DisplayRow>8</DisplayRow>
+    <DisplayColumn>8</DisplayColumn>
+  </Element>
+  <Element Name="Europium">
+    <AtomicNumber>63</AtomicNumber>
+    <Symbol>Eu</Symbol>
+    <AtomicWeight>151.964</AtomicWeight>
+    <Period>6</Period>
+    <Group>24</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>bcc</MostStableCrystal>
+    <Type>Lanthanide</Type>
+    <IonicRadius>0.95</IonicRadius>
+    <AtomicRadius>2.6</AtomicRadius>
+    <Electronegativity>1.2</Electronegativity>
+    <FirstIonizationPotential>5.6704</FirstIonizationPotential>
+    <Density>5.243</Density>
+    <MeltingPoint>1095.15</MeltingPoint>
+    <BoilingPoint>1802.0</BoilingPoint>
+    <Isotopes>21</Isotopes>
+    <Discoverer>Demarcay</Discoverer>
+    <YearOfDiscovery>1901</YearOfDiscovery>
+    <SpecificHeatCapacity>0.182</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f7 6s2</ElectronConfiguration>
+    <DisplayRow>8</DisplayRow>
+    <DisplayColumn>9</DisplayColumn>
+  </Element>
+  <Element Name="Gadolinium">
+    <AtomicNumber>64</AtomicNumber>
+    <Symbol>Gd</Symbol>
+    <AtomicWeight>157.25</AtomicWeight>
+    <Period>6</Period>
+    <Group>25</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Lanthanide</Type>
+    <IonicRadius>0.94</IonicRadius>
+    <AtomicRadius>2.5</AtomicRadius>
+    <Electronegativity>1.2</Electronegativity>
+    <FirstIonizationPotential>6.1501</FirstIonizationPotential>
+    <Density>7.895</Density>
+    <MeltingPoint>1585.15</MeltingPoint>
+    <BoilingPoint>3546.0</BoilingPoint>
+    <Isotopes>17</Isotopes>
+    <Discoverer>de Marignac</Discoverer>
+    <YearOfDiscovery>1880</YearOfDiscovery>
+    <SpecificHeatCapacity>0.236</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f7 5d1 6s2</ElectronConfiguration>
+    <DisplayRow>8</DisplayRow>
+    <DisplayColumn>10</DisplayColumn>
+  </Element>
+  <Element Name="Terbium">
+    <AtomicNumber>65</AtomicNumber>
+    <Symbol>Tb</Symbol>
+    <AtomicWeight>158.92535</AtomicWeight>
+    <Period>6</Period>
+    <Group>26</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Lanthanide</Type>
+    <IonicRadius>0.92</IonicRadius>
+    <AtomicRadius>2.5</AtomicRadius>
+    <Electronegativity>1.2</Electronegativity>
+    <FirstIonizationPotential>5.8638</FirstIonizationPotential>
+    <Density>8.229</Density>
+    <MeltingPoint>1630.15</MeltingPoint>
+    <BoilingPoint>3503.0</BoilingPoint>
+    <Isotopes>24</Isotopes>
+    <Discoverer>Mosander</Discoverer>
+    <YearOfDiscovery>1843</YearOfDiscovery>
+    <SpecificHeatCapacity>0.182</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f9 6s2</ElectronConfiguration>
+    <DisplayRow>8</DisplayRow>
+    <DisplayColumn>11</DisplayColumn>
+  </Element>
+  <Element Name="Dysprosium">
+    <AtomicNumber>66</AtomicNumber>
+    <Symbol>Dy</Symbol>
+    <AtomicWeight>162.5</AtomicWeight>
+    <Period>6</Period>
+    <Group>27</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Lanthanide</Type>
+    <IonicRadius>0.91</IonicRadius>
+    <AtomicRadius>2.5</AtomicRadius>
+    <Electronegativity>1.22</Electronegativity>
+    <FirstIonizationPotential>5.9389</FirstIonizationPotential>
+    <Density>8.55</Density>
+    <MeltingPoint>1680.15</MeltingPoint>
+    <BoilingPoint>2840.0</BoilingPoint>
+    <Isotopes>21</Isotopes>
+    <Discoverer>de Boisbaudran</Discoverer>
+    <YearOfDiscovery>1886</YearOfDiscovery>
+    <SpecificHeatCapacity>0.17</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f10 6s2</ElectronConfiguration>
+    <DisplayRow>8</DisplayRow>
+    <DisplayColumn>12</DisplayColumn>
+  </Element>
+  <Element Name="Holmium">
+    <AtomicNumber>67</AtomicNumber>
+    <Symbol>Ho</Symbol>
+    <AtomicWeight>164.93031</AtomicWeight>
+    <Period>6</Period>
+    <Group>28</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Lanthanide</Type>
+    <IonicRadius>0.9</IonicRadius>
+    <AtomicRadius>2.5</AtomicRadius>
+    <Electronegativity>1.23</Electronegativity>
+    <FirstIonizationPotential>6.0215</FirstIonizationPotential>
+    <Density>8.795</Density>
+    <MeltingPoint>1743.15</MeltingPoint>
+    <BoilingPoint>2993.0</BoilingPoint>
+    <Isotopes>29</Isotopes>
+    <Discoverer>Delafontaine and Soret</Discoverer>
+    <YearOfDiscovery>1878</YearOfDiscovery>
+    <SpecificHeatCapacity>0.165</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f11 6s2</ElectronConfiguration>
+    <DisplayRow>8</DisplayRow>
+    <DisplayColumn>13</DisplayColumn>
+  </Element>
+  <Element Name="Erbium">
+    <AtomicNumber>68</AtomicNumber>
+    <Symbol>Er</Symbol>
+    <AtomicWeight>167.259</AtomicWeight>
+    <Period>6</Period>
+    <Group>29</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Lanthanide</Type>
+    <IonicRadius>0.88</IonicRadius>
+    <AtomicRadius>2.5</AtomicRadius>
+    <Electronegativity>1.24</Electronegativity>
+    <FirstIonizationPotential>6.1077</FirstIonizationPotential>
+    <Density>9.066</Density>
+    <MeltingPoint>1795.15</MeltingPoint>
+    <BoilingPoint>3503.0</BoilingPoint>
+    <Isotopes>16</Isotopes>
+    <Discoverer>Mosander</Discoverer>
+    <YearOfDiscovery>1843</YearOfDiscovery>
+    <SpecificHeatCapacity>0.168</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f12 6s2</ElectronConfiguration>
+    <DisplayRow>8</DisplayRow>
+    <DisplayColumn>14</DisplayColumn>
+  </Element>
+  <Element Name="Thulium">
+    <AtomicNumber>69</AtomicNumber>
+    <Symbol>Tm</Symbol>
+    <AtomicWeight>168.9342</AtomicWeight>
+    <Period>6</Period>
+    <Group>30</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Lanthanide</Type>
+    <IonicRadius>0.87</IonicRadius>
+    <AtomicRadius>2.4</AtomicRadius>
+    <Electronegativity>1.25</Electronegativity>
+    <FirstIonizationPotential>6.1843</FirstIonizationPotential>
+    <Density>9.321</Density>
+    <MeltingPoint>1818.15</MeltingPoint>
+    <BoilingPoint>2223.0</BoilingPoint>
+    <Isotopes>18</Isotopes>
+    <Discoverer>Cleve</Discoverer>
+    <YearOfDiscovery>1879</YearOfDiscovery>
+    <SpecificHeatCapacity>0.16</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f13 6s2</ElectronConfiguration>
+    <DisplayRow>8</DisplayRow>
+    <DisplayColumn>15</DisplayColumn>
+  </Element>
+  <Element Name="Ytterbium">
+    <AtomicNumber>70</AtomicNumber>
+    <Symbol>Yb</Symbol>
+    <AtomicWeight>173.054</AtomicWeight>
+    <Period>6</Period>
+    <Group>31</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Lanthanide</Type>
+    <IonicRadius>0.86</IonicRadius>
+    <AtomicRadius>2.4</AtomicRadius>
+    <Electronegativity>1.1</Electronegativity>
+    <FirstIonizationPotential>6.2542</FirstIonizationPotential>
+    <Density>6.965</Density>
+    <MeltingPoint>1097.15</MeltingPoint>
+    <BoilingPoint>1469.0</BoilingPoint>
+    <Isotopes>16</Isotopes>
+    <Discoverer>Marignac</Discoverer>
+    <YearOfDiscovery>1878</YearOfDiscovery>
+    <SpecificHeatCapacity>0.155</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 6s2</ElectronConfiguration>
+    <DisplayRow>8</DisplayRow>
+    <DisplayColumn>16</DisplayColumn>
+  </Element>
+  <Element Name="Lutetium">
+    <AtomicNumber>71</AtomicNumber>
+    <Symbol>Lu</Symbol>
+    <AtomicWeight>174.9668</AtomicWeight>
+    <Period>6</Period>
+    <Group>32</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Lanthanide</Type>
+    <IonicRadius>0.85</IonicRadius>
+    <AtomicRadius>2.3</AtomicRadius>
+    <Electronegativity>1.27</Electronegativity>
+    <FirstIonizationPotential>5.4259</FirstIonizationPotential>
+    <Density>9.84</Density>
+    <MeltingPoint>1936.15</MeltingPoint>
+    <BoilingPoint>3675.0</BoilingPoint>
+    <Isotopes>22</Isotopes>
+    <Discoverer>Urbain/ von Welsbach</Discoverer>
+    <YearOfDiscovery>1907</YearOfDiscovery>
+    <SpecificHeatCapacity>0.154</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 5d1 6s2</ElectronConfiguration>
+    <DisplayRow>8</DisplayRow>
+    <DisplayColumn>17</DisplayColumn>
+  </Element>
+  <Element Name="Hafnium">
+    <AtomicNumber>72</AtomicNumber>
+    <Symbol>Hf</Symbol>
+    <AtomicWeight>178.49</AtomicWeight>
+    <Period>6</Period>
+    <Group>4</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.71</IonicRadius>
+    <AtomicRadius>2.2</AtomicRadius>
+    <Electronegativity>1.3</Electronegativity>
+    <FirstIonizationPotential>6.8251</FirstIonizationPotential>
+    <Density>13.31</Density>
+    <MeltingPoint>2500.15</MeltingPoint>
+    <BoilingPoint>4876.0</BoilingPoint>
+    <Isotopes>17</Isotopes>
+    <Discoverer>Coster and von Hevesy</Discoverer>
+    <YearOfDiscovery>1923</YearOfDiscovery>
+    <SpecificHeatCapacity>0.144</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 5d2 6s2</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>4</DisplayColumn>
+  </Element>
+  <Element Name="Tantalum">
+    <AtomicNumber>73</AtomicNumber>
+    <Symbol>Ta</Symbol>
+    <AtomicWeight>180.94788</AtomicWeight>
+    <Period>6</Period>
+    <Group>5</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>bcc</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.64</IonicRadius>
+    <AtomicRadius>2.1</AtomicRadius>
+    <Electronegativity>1.5</Electronegativity>
+    <FirstIonizationPotential>7.5496</FirstIonizationPotential>
+    <Density>16.654</Density>
+    <MeltingPoint>3269.15</MeltingPoint>
+    <BoilingPoint>5731.0</BoilingPoint>
+    <Isotopes>19</Isotopes>
+    <Discoverer>Ekeberg</Discoverer>
+    <YearOfDiscovery>1801</YearOfDiscovery>
+    <SpecificHeatCapacity>0.14</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 5d3 6s2</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>5</DisplayColumn>
+  </Element>
+  <Element Name="Wolfram">
+    <AtomicNumber>74</AtomicNumber>
+    <Symbol>W</Symbol>
+    <AtomicWeight>183.84</AtomicWeight>
+    <Period>6</Period>
+    <Group>6</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>bcc</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.62</IonicRadius>
+    <AtomicRadius>2.0</AtomicRadius>
+    <Electronegativity>2.36</Electronegativity>
+    <FirstIonizationPotential>7.864</FirstIonizationPotential>
+    <Density>19.25</Density>
+    <MeltingPoint>3680.15</MeltingPoint>
+    <BoilingPoint>5828.0</BoilingPoint>
+    <Isotopes>22</Isotopes>
+    <Discoverer>J. and F. d'Elhuyar</Discoverer>
+    <YearOfDiscovery>1783</YearOfDiscovery>
+    <SpecificHeatCapacity>0.132</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 5d4 6s2</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>6</DisplayColumn>
+  </Element>
+  <Element Name="Rhenium">
+    <AtomicNumber>75</AtomicNumber>
+    <Symbol>Re</Symbol>
+    <AtomicWeight>186.207</AtomicWeight>
+    <Period>6</Period>
+    <Group>7</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.56</IonicRadius>
+    <AtomicRadius>2.0</AtomicRadius>
+    <Electronegativity>1.9</Electronegativity>
+    <FirstIonizationPotential>7.8335</FirstIonizationPotential>
+    <Density>21.02</Density>
+    <MeltingPoint>3453.15</MeltingPoint>
+    <BoilingPoint>5869.0</BoilingPoint>
+    <Isotopes>21</Isotopes>
+    <Discoverer>Noddack, Berg, and Tacke</Discoverer>
+    <YearOfDiscovery>1925</YearOfDiscovery>
+    <SpecificHeatCapacity>0.137</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 5d5 6s2</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>7</DisplayColumn>
+  </Element>
+  <Element Name="Osmium">
+    <AtomicNumber>76</AtomicNumber>
+    <Symbol>Os</Symbol>
+    <AtomicWeight>190.23</AtomicWeight>
+    <Period>6</Period>
+    <Group>8</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.63</IonicRadius>
+    <AtomicRadius>1.9</AtomicRadius>
+    <Electronegativity>2.2</Electronegativity>
+    <FirstIonizationPotential>8.4382</FirstIonizationPotential>
+    <Density>22.61</Density>
+    <MeltingPoint>3300.15</MeltingPoint>
+    <BoilingPoint>5285.0</BoilingPoint>
+    <Isotopes>19</Isotopes>
+    <Discoverer>Tennant</Discoverer>
+    <YearOfDiscovery>1803</YearOfDiscovery>
+    <SpecificHeatCapacity>0.13</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 5d6 6s2</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>8</DisplayColumn>
+  </Element>
+  <Element Name="Iridium">
+    <AtomicNumber>77</AtomicNumber>
+    <Symbol>Ir</Symbol>
+    <AtomicWeight>192.217</AtomicWeight>
+    <Period>6</Period>
+    <Group>9</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.63</IonicRadius>
+    <AtomicRadius>1.9</AtomicRadius>
+    <Electronegativity>2.2</Electronegativity>
+    <FirstIonizationPotential>8.967</FirstIonizationPotential>
+    <Density>22.56</Density>
+    <MeltingPoint>2716.15</MeltingPoint>
+    <BoilingPoint>4701.0</BoilingPoint>
+    <Isotopes>25</Isotopes>
+    <Discoverer>Tennant</Discoverer>
+    <YearOfDiscovery>1804</YearOfDiscovery>
+    <SpecificHeatCapacity>0.131</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 5d7 6s2</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>9</DisplayColumn>
+  </Element>
+  <Element Name="Platinum">
+    <AtomicNumber>78</AtomicNumber>
+    <Symbol>Pt</Symbol>
+    <AtomicWeight>195.084</AtomicWeight>
+    <Period>6</Period>
+    <Group>10</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.63</IonicRadius>
+    <AtomicRadius>1.8</AtomicRadius>
+    <Electronegativity>2.28</Electronegativity>
+    <FirstIonizationPotential>8.9587</FirstIonizationPotential>
+    <Density>21.46</Density>
+    <MeltingPoint>2045.15</MeltingPoint>
+    <BoilingPoint>4098.0</BoilingPoint>
+    <Isotopes>32</Isotopes>
+    <Discoverer>Ulloa/Wood</Discoverer>
+    <YearOfDiscovery>1735</YearOfDiscovery>
+    <SpecificHeatCapacity>0.133</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 5d9 6s1</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>10</DisplayColumn>
+  </Element>
+  <Element Name="Gold">
+    <AtomicNumber>79</AtomicNumber>
+    <Symbol>Au</Symbol>
+    <AtomicWeight>196.96657</AtomicWeight>
+    <Period>6</Period>
+    <Group>11</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Transition Metal</Type>
+    <IonicRadius>0.85</IonicRadius>
+    <AtomicRadius>1.8</AtomicRadius>
+    <Electronegativity>2.54</Electronegativity>
+    <FirstIonizationPotential>9.2255</FirstIonizationPotential>
+    <Density>19.282</Density>
+    <MeltingPoint>1337.73</MeltingPoint>
+    <BoilingPoint>3129.0</BoilingPoint>
+    <Isotopes>21</Isotopes>
+    <Discoverer>Prehistoric</Discoverer>
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.129</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 5d10 6s1</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>11</DisplayColumn>
+  </Element>
+  <Element Name="Mercury">
+    <AtomicNumber>80</AtomicNumber>
+    <Symbol>Hg</Symbol>
+    <AtomicWeight>200.59</AtomicWeight>
+    <Period>6</Period>
+    <Group>12</Group>
+    <Phase>liq</Phase>
+    <MostStableCrystal />
+    <Type>Transition Metal</Type>
+    <IonicRadius>1.0</IonicRadius>
+    <AtomicRadius>1.8</AtomicRadius>
+    <Electronegativity>2.0</Electronegativity>
+    <FirstIonizationPotential>10.4375</FirstIonizationPotential>
+    <Density>13.5336</Density>
+    <MeltingPoint>234.43</MeltingPoint>
+    <BoilingPoint>630.0</BoilingPoint>
+    <Isotopes>26</Isotopes>
+    <Discoverer>Prehistoric</Discoverer>
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.14</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 5d10 6s2</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>12</DisplayColumn>
+  </Element>
+  <Element Name="Thallium">
+    <AtomicNumber>81</AtomicNumber>
+    <Symbol>Tl</Symbol>
+    <AtomicWeight>204.3833</AtomicWeight>
+    <Period>6</Period>
+    <Group>13</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Metal</Type>
+    <IonicRadius>1.5</IonicRadius>
+    <AtomicRadius>2.1</AtomicRadius>
+    <Electronegativity>2.04</Electronegativity>
+    <FirstIonizationPotential>6.1082</FirstIonizationPotential>
+    <Density>11.85</Density>
+    <MeltingPoint>577.15</MeltingPoint>
+    <BoilingPoint>1746.0</BoilingPoint>
+    <Isotopes>28</Isotopes>
+    <Discoverer>Crookes</Discoverer>
+    <YearOfDiscovery>1861</YearOfDiscovery>
+    <SpecificHeatCapacity>0.129</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 5d10 6s2 6p1</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>13</DisplayColumn>
+  </Element>
+  <Element Name="Lead">
+    <AtomicNumber>82</AtomicNumber>
+    <Symbol>Pb</Symbol>
+    <AtomicWeight>207.2</AtomicWeight>
+    <Period>6</Period>
+    <Group>14</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Metal</Type>
+    <IonicRadius>1.2</IonicRadius>
+    <AtomicRadius>1.8</AtomicRadius>
+    <Electronegativity>2.33</Electronegativity>
+    <FirstIonizationPotential>7.4167</FirstIonizationPotential>
+    <Density>11.342</Density>
+    <MeltingPoint>600.75</MeltingPoint>
+    <BoilingPoint>2022.0</BoilingPoint>
+    <Isotopes>29</Isotopes>
+    <Discoverer>Prehistoric</Discoverer>
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.129</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 5d10 6s2 6p2</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>14</DisplayColumn>
+  </Element>
+  <Element Name="Bismuth">
+    <AtomicNumber>83</AtomicNumber>
+    <Symbol>Bi</Symbol>
+    <AtomicWeight>208.9804</AtomicWeight>
+    <Period>6</Period>
+    <Group>15</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>rho</MostStableCrystal>
+    <Type>Metal</Type>
+    <IonicRadius>1.0</IonicRadius>
+    <AtomicRadius>1.6</AtomicRadius>
+    <Electronegativity>2.02</Electronegativity>
+    <FirstIonizationPotential>7.2856</FirstIonizationPotential>
+    <Density>9.807</Density>
+    <MeltingPoint>544.67</MeltingPoint>
+    <BoilingPoint>1837.0</BoilingPoint>
+    <Isotopes>19</Isotopes>
+    <Discoverer>Geoffroy the Younger</Discoverer>
+    <YearOfDiscovery>1753</YearOfDiscovery>
+    <SpecificHeatCapacity>0.122</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 5d10 6s2 6p3</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>15</DisplayColumn>
+  </Element>
+  <Element Name="Polonium">
+    <AtomicNumber>84</AtomicNumber>
+    <Symbol>Po</Symbol>
+    <AtomicWeight>210.0</AtomicWeight>
+    <Period>6</Period>
+    <Group>16</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>cub</MostStableCrystal>
+    <Type>Metalloid</Type>
+    <IonicRadius>2.3</IonicRadius>
+    <AtomicRadius>1.5</AtomicRadius>
+    <Electronegativity>2.0</Electronegativity>
+    <FirstIonizationPotential>8.417</FirstIonizationPotential>
+    <Density>9.32</Density>
+    <MeltingPoint>527.15</MeltingPoint>
+    <BoilingPoint>1235.0</BoilingPoint>
+    <Isotopes>34</Isotopes>
+    <Discoverer>Curie</Discoverer>
+    <YearOfDiscovery>1898</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 5d10 6s2 6p4</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>16</DisplayColumn>
+  </Element>
+  <Element Name="Astatine">
+    <AtomicNumber>85</AtomicNumber>
+    <Symbol>At</Symbol>
+    <AtomicWeight>210.0</AtomicWeight>
+    <Period>6</Period>
+    <Group>17</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal />
+    <Type>Noble Gas</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>1.4</AtomicRadius>
+    <Electronegativity>2.2</Electronegativity>
+    <FirstIonizationPotential>9.3</FirstIonizationPotential>
+    <Density>7.0</Density>
+    <MeltingPoint>575.15</MeltingPoint>
+    <BoilingPoint>610.0</BoilingPoint>
+    <Isotopes>21</Isotopes>
+    <Discoverer>Corson et al.</Discoverer>
+    <YearOfDiscovery>1940</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 5d10 6s2 6p5</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>17</DisplayColumn>
+  </Element>
+  <Element Name="Radon">
+    <AtomicNumber>86</AtomicNumber>
+    <Symbol>Rn</Symbol>
+    <AtomicWeight>222.0</AtomicWeight>
+    <Period>6</Period>
+    <Group>18</Group>
+    <Phase>gas</Phase>
+    <MostStableCrystal />
+    <Type>Alkali Metal</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>1.3</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>10.7485</FirstIonizationPotential>
+    <Density>0.00973</Density>
+    <MeltingPoint>202.15</MeltingPoint>
+    <BoilingPoint>211.3</BoilingPoint>
+    <Isotopes>20</Isotopes>
+    <Discoverer>Dorn</Discoverer>
+    <YearOfDiscovery>1900</YearOfDiscovery>
+    <SpecificHeatCapacity>0.094</SpecificHeatCapacity>
+    <ElectronConfiguration>[Xe] 4f14 5d10 6s2 6p6</ElectronConfiguration>
+    <DisplayRow>6</DisplayRow>
+    <DisplayColumn>18</DisplayColumn>
+  </Element>
+  <Element Name="Francium">
+    <AtomicNumber>87</AtomicNumber>
+    <Symbol>Fr</Symbol>
+    <AtomicWeight>223.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>1</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>bcc</MostStableCrystal>
+    <Type>Alkaline Earth Metal</Type>
+    <IonicRadius>1.8</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.7</Electronegativity>
+    <FirstIonizationPotential>4.0727</FirstIonizationPotential>
+    <Density>1.87</Density>
+    <MeltingPoint>300.15</MeltingPoint>
+    <BoilingPoint>950.0</BoilingPoint>
+    <Isotopes>21</Isotopes>
+    <Discoverer>Perey</Discoverer>
+    <YearOfDiscovery>1939</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration>[Rn] 7s1</ElectronConfiguration>
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>1</DisplayColumn>
+  </Element>
+  <Element Name="Radium">
+    <AtomicNumber>88</AtomicNumber>
+    <Symbol>Ra</Symbol>
+    <AtomicWeight>226.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>2</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>bcc</MostStableCrystal>
+    <Type>Actinide</Type>
+    <IonicRadius>1.4</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.9</Electronegativity>
+    <FirstIonizationPotential>5.2784</FirstIonizationPotential>
+    <Density>5.5</Density>
+    <MeltingPoint>973.15</MeltingPoint>
+    <BoilingPoint>2010.0</BoilingPoint>
+    <Isotopes>15</Isotopes>
+    <Discoverer>Pierre and Marie Curie</Discoverer>
+    <YearOfDiscovery>1898</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration>[Rn] 7s2</ElectronConfiguration>
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>2</DisplayColumn>
+  </Element>
+  <Element Name="Actinium">
+    <AtomicNumber>89</AtomicNumber>
+    <Symbol>Ac</Symbol>
+    <AtomicWeight>227.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>3</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Actinide</Type>
+    <IonicRadius>1.1</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>1.1</Electronegativity>
+    <FirstIonizationPotential>5.17</FirstIonizationPotential>
+    <Density>10.07</Density>
+    <MeltingPoint>1323.15</MeltingPoint>
+    <BoilingPoint>3471.0</BoilingPoint>
+    <Isotopes>11</Isotopes>
+    <Discoverer>Debierne/Giesel</Discoverer>
+    <YearOfDiscovery>1899</YearOfDiscovery>
+    <SpecificHeatCapacity>0.12</SpecificHeatCapacity>
+    <ElectronConfiguration>[Rn] 6d1 7s2</ElectronConfiguration>
+    <DisplayRow>9</DisplayRow>
+    <DisplayColumn>3</DisplayColumn>
+  </Element>
+  <Element Name="Thorium">
+    <AtomicNumber>90</AtomicNumber>
+    <Symbol>Th</Symbol>
+    <AtomicWeight>232.03806</AtomicWeight>
+    <Period>7</Period>
+    <Group>19</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>fcc</MostStableCrystal>
+    <Type>Actinide</Type>
+    <IonicRadius>0.97</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>1.3</Electronegativity>
+    <FirstIonizationPotential>6.3067</FirstIonizationPotential>
+    <Density>11.72</Density>
+    <MeltingPoint>2028.15</MeltingPoint>
+    <BoilingPoint>5061.0</BoilingPoint>
+    <Isotopes>12</Isotopes>
+    <Discoverer>Berzelius</Discoverer>
+    <YearOfDiscovery>1828</YearOfDiscovery>
+    <SpecificHeatCapacity>0.113</SpecificHeatCapacity>
+    <ElectronConfiguration>[Rn] 6d2 7s2</ElectronConfiguration>
+    <DisplayRow>9</DisplayRow>
+    <DisplayColumn>4</DisplayColumn>
+  </Element>
+  <Element Name="Protactinium">
+    <AtomicNumber>91</AtomicNumber>
+    <Symbol>Pa</Symbol>
+    <AtomicWeight>231.03587</AtomicWeight>
+    <Period>7</Period>
+    <Group>20</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>orth</MostStableCrystal>
+    <Type>Actinide</Type>
+    <IonicRadius>0.78</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>1.5</Electronegativity>
+    <FirstIonizationPotential>5.89</FirstIonizationPotential>
+    <Density>15.37</Density>
+    <MeltingPoint>1873.15</MeltingPoint>
+    <BoilingPoint>4300.0</BoilingPoint>
+    <Isotopes>14</Isotopes>
+    <Discoverer>Hahn and Meitner</Discoverer>
+    <YearOfDiscovery>1917</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration>[Rn] 5f2 6d1 7s2</ElectronConfiguration>
+    <DisplayRow>9</DisplayRow>
+    <DisplayColumn>5</DisplayColumn>
+  </Element>
+  <Element Name="Uranium">
+    <AtomicNumber>92</AtomicNumber>
+    <Symbol>U</Symbol>
+    <AtomicWeight>238.02892</AtomicWeight>
+    <Period>7</Period>
+    <Group>21</Group>
+    <Phase>solid</Phase>
+    <MostStableCrystal>orth</MostStableCrystal>
+    <Type>Actinide</Type>
+    <IonicRadius>0.52</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>1.38</Electronegativity>
+    <FirstIonizationPotential>6.1941</FirstIonizationPotential>
+    <Density>18.95</Density>
+    <MeltingPoint>1405.15</MeltingPoint>
+    <BoilingPoint>4404.0</BoilingPoint>
+    <Isotopes>15</Isotopes>
+    <Discoverer>Peligot</Discoverer>
+    <YearOfDiscovery>1841</YearOfDiscovery>
+    <SpecificHeatCapacity>0.116</SpecificHeatCapacity>
+    <ElectronConfiguration>[Rn] 5f3 6d1 7s2</ElectronConfiguration>
+    <DisplayRow>9</DisplayRow>
+    <DisplayColumn>6</DisplayColumn>
+  </Element>
+  <Element Name="Neptunium">
+    <AtomicNumber>93</AtomicNumber>
+    <Symbol>Np</Symbol>
+    <AtomicWeight>237.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>22</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal>orth</MostStableCrystal>
+    <Type>Actinide</Type>
+    <IonicRadius>0.75</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>1.36</Electronegativity>
+    <FirstIonizationPotential>6.2657</FirstIonizationPotential>
+    <Density>20.45</Density>
+    <MeltingPoint>913.15</MeltingPoint>
+    <BoilingPoint>4273.0</BoilingPoint>
+    <Isotopes>153</Isotopes>
+    <Discoverer>McMillan and Abelson</Discoverer>
+    <YearOfDiscovery>1940</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration>[Rn] 5f4 6d1 7s2</ElectronConfiguration>
+    <DisplayRow>9</DisplayRow>
+    <DisplayColumn>7</DisplayColumn>
+  </Element>
+  <Element Name="Plutonium">
+    <AtomicNumber>94</AtomicNumber>
+    <Symbol>Pu</Symbol>
+    <AtomicWeight>244.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>23</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal>mno</MostStableCrystal>
+    <Type>Actinide</Type>
+    <IonicRadius>0.89</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>1.28</Electronegativity>
+    <FirstIonizationPotential>6.0262</FirstIonizationPotential>
+    <Density>19.84</Density>
+    <MeltingPoint>913.15</MeltingPoint>
+    <BoilingPoint>3501.0</BoilingPoint>
+    <Isotopes>163</Isotopes>
+    <Discoverer>Seaborg et al.</Discoverer>
+    <YearOfDiscovery>1940</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration>[Rn] 5f6 7s2</ElectronConfiguration>
+    <DisplayRow>9</DisplayRow>
+    <DisplayColumn>8</DisplayColumn>
+  </Element>
+  <Element Name="Americium">
+    <AtomicNumber>95</AtomicNumber>
+    <Symbol>Am</Symbol>
+    <AtomicWeight>243.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>24</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Actinide</Type>
+    <IonicRadius>0.98</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>1.3</Electronegativity>
+    <FirstIonizationPotential>5.9738</FirstIonizationPotential>
+    <Density>13.69</Density>
+    <MeltingPoint>1267.15</MeltingPoint>
+    <BoilingPoint>2880.0</BoilingPoint>
+    <Isotopes>133</Isotopes>
+    <Discoverer>Seaborg et al.</Discoverer>
+    <YearOfDiscovery>1944</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration>[Rn] 5f7 7s2</ElectronConfiguration>
+    <DisplayRow>9</DisplayRow>
+    <DisplayColumn>9</DisplayColumn>
+  </Element>
+  <Element Name="Curium">
+    <AtomicNumber>96</AtomicNumber>
+    <Symbol>Cm</Symbol>
+    <AtomicWeight>247.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>25</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Actinide</Type>
+    <IonicRadius>0.97</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>1.3</Electronegativity>
+    <FirstIonizationPotential>5.9915</FirstIonizationPotential>
+    <Density>13.51</Density>
+    <MeltingPoint>1340.15</MeltingPoint>
+    <BoilingPoint>3383.0</BoilingPoint>
+    <Isotopes>133</Isotopes>
+    <Discoverer>Seaborg et al.</Discoverer>
+    <YearOfDiscovery>1944</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>9</DisplayRow>
+    <DisplayColumn>10</DisplayColumn>
+  </Element>
+  <Element Name="Berkelium">
+    <AtomicNumber>97</AtomicNumber>
+    <Symbol>Bk</Symbol>
+    <AtomicWeight>247.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>26</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Actinide</Type>
+    <IonicRadius>0.95</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>1.3</Electronegativity>
+    <FirstIonizationPotential>6.1979</FirstIonizationPotential>
+    <Density>14.79</Density>
+    <MeltingPoint>1259.15</MeltingPoint>
+    <BoilingPoint>983.0</BoilingPoint>
+    <Isotopes>83</Isotopes>
+    <Discoverer>Seaborg et al.</Discoverer>
+    <YearOfDiscovery>1949</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>9</DisplayRow>
+    <DisplayColumn>11</DisplayColumn>
+  </Element>
+  <Element Name="Californium">
+    <AtomicNumber>98</AtomicNumber>
+    <Symbol>Cf</Symbol>
+    <AtomicWeight>251.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>27</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Actinide</Type>
+    <IonicRadius>0.93</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>1.3</Electronegativity>
+    <FirstIonizationPotential>6.2817</FirstIonizationPotential>
+    <Density>15.1</Density>
+    <MeltingPoint>1925.15</MeltingPoint>
+    <BoilingPoint>1173.0</BoilingPoint>
+    <Isotopes>123</Isotopes>
+    <Discoverer>Seaborg et al.</Discoverer>
+    <YearOfDiscovery>1950</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>9</DisplayRow>
+    <DisplayColumn>12</DisplayColumn>
+  </Element>
+  <Element Name="Einsteinium">
+    <AtomicNumber>99</AtomicNumber>
+    <Symbol>Es</Symbol>
+    <AtomicWeight>252.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>28</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal>hex</MostStableCrystal>
+    <Type>Actinide</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>1.3</Electronegativity>
+    <FirstIonizationPotential>6.42</FirstIonizationPotential>
+    <Density>13.5</Density>
+    <MeltingPoint>1133.15</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>123</Isotopes>
+    <Discoverer>Ghiorso et al.</Discoverer>
+    <YearOfDiscovery>1952</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>9</DisplayRow>
+    <DisplayColumn>13</DisplayColumn>
+  </Element>
+  <Element Name="Fermium">
+    <AtomicNumber>100</AtomicNumber>
+    <Symbol>Fm</Symbol>
+    <AtomicWeight>257.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>29</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type>Actinide</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>1.3</Electronegativity>
+    <FirstIonizationPotential>6.5</FirstIonizationPotential>
+    <Density>0.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>103</Isotopes>
+    <Discoverer>Ghiorso et al.</Discoverer>
+    <YearOfDiscovery>1953</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>9</DisplayRow>
+    <DisplayColumn>14</DisplayColumn>
+  </Element>
+  <Element Name="Mendelevium">
+    <AtomicNumber>101</AtomicNumber>
+    <Symbol>Md</Symbol>
+    <AtomicWeight>258.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>30</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type>Actinide</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>1.3</Electronegativity>
+    <FirstIonizationPotential>6.58</FirstIonizationPotential>
+    <Density>0.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>33</Isotopes>
+    <Discoverer>Ghiorso et al.</Discoverer>
+    <YearOfDiscovery>1955</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>9</DisplayRow>
+    <DisplayColumn>15</DisplayColumn>
+  </Element>
+  <Element Name="Nobelium">
+    <AtomicNumber>102</AtomicNumber>
+    <Symbol>No</Symbol>
+    <AtomicWeight>259.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>31</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type>Actinide</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>1.3</Electronegativity>
+    <FirstIonizationPotential>6.65</FirstIonizationPotential>
+    <Density>0.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>73</Isotopes>
+    <Discoverer>Ghiorso et al.</Discoverer>
+    <YearOfDiscovery>1958</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>9</DisplayRow>
+    <DisplayColumn>16</DisplayColumn>
+  </Element>
+  <Element Name="Lawrencium">
+    <AtomicNumber>103</AtomicNumber>
+    <Symbol>Lr</Symbol>
+    <AtomicWeight>262.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>32</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type>Actinide</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>0.0</FirstIonizationPotential>
+    <Density>0.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>203</Isotopes>
+    <Discoverer>Ghiorso et al.</Discoverer>
+    <YearOfDiscovery>1961</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>9</DisplayRow>
+    <DisplayColumn>17</DisplayColumn>
+  </Element>
+  <Element Name="Rutherfordium">
+    <AtomicNumber>104</AtomicNumber>
+    <Symbol>Rf</Symbol>
+    <AtomicWeight>261.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>4</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type>Transactinide</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>0.0</FirstIonizationPotential>
+    <Density>18.1</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>0</Isotopes>
+    <Discoverer>Ghiorso et al.</Discoverer>
+    <YearOfDiscovery>1969</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>4</DisplayColumn>
+  </Element>
+  <Element Name="Dubnium">
+    <AtomicNumber>105</AtomicNumber>
+    <Symbol>Db</Symbol>
+    <AtomicWeight>262.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>5</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type>Transactinide</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>0.0</FirstIonizationPotential>
+    <Density>39.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>0</Isotopes>
+    <Discoverer>Ghiorso et al.</Discoverer>
+    <YearOfDiscovery>1970</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>5</DisplayColumn>
+  </Element>
+  <Element Name="Seaborgium">
+    <AtomicNumber>106</AtomicNumber>
+    <Symbol>Sg</Symbol>
+    <AtomicWeight>266.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>6</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type>Transactinide</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>0.0</FirstIonizationPotential>
+    <Density>35.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>0</Isotopes>
+    <Discoverer>Ghiorso et al.</Discoverer>
+    <YearOfDiscovery>1974</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>6</DisplayColumn>
+  </Element>
+  <Element Name="Bohrium">
+    <AtomicNumber>107</AtomicNumber>
+    <Symbol>Bh</Symbol>
+    <AtomicWeight>264.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>7</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type>Transactinide</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>0.0</FirstIonizationPotential>
+    <Density>37.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>0</Isotopes>
+    <Discoverer>Armbruster and M�nzenberg</Discoverer>
+    <YearOfDiscovery>1981</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>7</DisplayColumn>
+  </Element>
+  <Element Name="Hassium">
+    <AtomicNumber>108</AtomicNumber>
+    <Symbol>Hs</Symbol>
+    <AtomicWeight>267.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>8</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type>Transactinide</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>0.0</FirstIonizationPotential>
+    <Density>41.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>0</Isotopes>
+    <Discoverer>Armbruster and M�nzenberg</Discoverer>
+    <YearOfDiscovery>1983</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>8</DisplayColumn>
+  </Element>
+  <Element Name="Meitnerium">
+    <AtomicNumber>109</AtomicNumber>
+    <Symbol>Mt</Symbol>
+    <AtomicWeight>268.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>9</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type>Transactinide</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>0.0</FirstIonizationPotential>
+    <Density>35.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>0</Isotopes>
+    <Discoverer>GSI, Darmstadt, West Germany</Discoverer>
+    <YearOfDiscovery>1982</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>9</DisplayColumn>
+  </Element>
+  <Element Name="Darmstadtium ">
+    <AtomicNumber>110</AtomicNumber>
+    <Symbol>Ds</Symbol>
+    <AtomicWeight>271.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>10</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type>Transactinide</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>0.0</FirstIonizationPotential>
+    <Density>0.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>0</Isotopes>
+    <Discoverer />
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>10</DisplayColumn>
+  </Element>
+  <Element Name="Roentgenium ">
+    <AtomicNumber>111</AtomicNumber>
+    <Symbol>Rg</Symbol>
+    <AtomicWeight>272.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>11</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type>Transactinide</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>0.0</FirstIonizationPotential>
+    <Density>0.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>0</Isotopes>
+    <Discoverer />
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>11</DisplayColumn>
+  </Element>
+  <Element Name="Copernicium ">
+    <AtomicNumber>112</AtomicNumber>
+    <Symbol>Cn</Symbol>
+    <AtomicWeight>285.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>12</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type>Transactinide</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>0.0</FirstIonizationPotential>
+    <Density>0.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>0</Isotopes>
+    <Discoverer />
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>12</DisplayColumn>
+  </Element>
+  <Element Name="Ununtrium ">
+    <AtomicNumber>113</AtomicNumber>
+    <Symbol>Uut</Symbol>
+    <AtomicWeight>284.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>13</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type />
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>0.0</FirstIonizationPotential>
+    <Density>0.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>0</Isotopes>
+    <Discoverer />
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>13</DisplayColumn>
+  </Element>
+  <Element Name="Ununquadium ">
+    <AtomicNumber>114</AtomicNumber>
+    <Symbol>Uuq</Symbol>
+    <AtomicWeight>289.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>14</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type>Transactinide</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>0.0</FirstIonizationPotential>
+    <Density>0.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>0</Isotopes>
+    <Discoverer />
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>14</DisplayColumn>
+  </Element>
+  <Element Name="Ununpentium ">
+    <AtomicNumber>115</AtomicNumber>
+    <Symbol>Uup</Symbol>
+    <AtomicWeight>288.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>15</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type />
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>0.0</FirstIonizationPotential>
+    <Density>0.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>0</Isotopes>
+    <Discoverer />
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>15</DisplayColumn>
+  </Element>
+  <Element Name="Ununhexium ">
+    <AtomicNumber>116</AtomicNumber>
+    <Symbol>Uuh</Symbol>
+    <AtomicWeight>292.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>16</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type>Transactinide</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>0.0</FirstIonizationPotential>
+    <Density>0.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>0</Isotopes>
+    <Discoverer />
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>16</DisplayColumn>
+  </Element>
+  <Element Name="Ununseptium ">
+    <AtomicNumber>117</AtomicNumber>
+    <Symbol>Uus</Symbol>
+    <AtomicWeight>295.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>17</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type />
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>0.0</FirstIonizationPotential>
+    <Density>0.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>0</Isotopes>
+    <Discoverer />
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>17</DisplayColumn>
+  </Element>
+  <Element Name="Ununoctium ">
+    <AtomicNumber>118</AtomicNumber>
+    <Symbol>Uuo</Symbol>
+    <AtomicWeight>294.0</AtomicWeight>
+    <Period>7</Period>
+    <Group>18</Group>
+    <Phase>artificial</Phase>
+    <MostStableCrystal />
+    <Type>Noble Gas</Type>
+    <IonicRadius>0.0</IonicRadius>
+    <AtomicRadius>0.0</AtomicRadius>
+    <Electronegativity>0.0</Electronegativity>
+    <FirstIonizationPotential>0.0</FirstIonizationPotential>
+    <Density>0.0</Density>
+    <MeltingPoint>0.0</MeltingPoint>
+    <BoilingPoint>0.0</BoilingPoint>
+    <Isotopes>0</Isotopes>
+    <Discoverer />
+    <YearOfDiscovery>0</YearOfDiscovery>
+    <SpecificHeatCapacity>0.0</SpecificHeatCapacity>
+    <ElectronConfiguration />
+    <DisplayRow>7</DisplayRow>
+    <DisplayColumn>18</DisplayColumn>
+  </Element>
+</PeriodicTable>

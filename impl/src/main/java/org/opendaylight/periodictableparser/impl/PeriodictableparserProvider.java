@@ -11,28 +11,21 @@ import org.opendaylight.periodictableparser.impl.PeriodicElement;
 import org.opendaylight.controller.md.sal.binding.api.DataBroker;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.io.FileReader; 
 import java.io.File; 
 import java.io.IOException; 
 import java.io.FileOutputStream; 
 import java.io.FileNotFoundException;
 import java.util.List;  
-
 import com.fasterxml.jackson.core.JsonFactory;
-import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.JsonGenerator;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.JsonEncoding;
-import com.opencsv.CSVReader; 
-import com.opencsv.bean.ColumnPositionMappingStrategy; 
-import com.opencsv.bean.HeaderColumnNameMappingStrategy; 
-import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
 import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
+import org.apache.commons.io.FilenameUtils; 
 
 
 
@@ -57,7 +50,7 @@ public class PeriodictableparserProvider {
         String jsonLocation = "/periodictableparser/impl/src/main/resources/Periodic_Table_JSON.json";
         String xmlLocation = "/periodictableparser/impl/src/main/resources/Periodic_Table_XML.xml";
         String csvLocation = "/periodictableparser/impl/src/main/resources/Periodic_Table_of_Elements.csv" ;
-         String jsonFilePath = workingDirectory + jsonLocation;
+        String jsonFilePath = workingDirectory + jsonLocation;
         String xmlFilePath = workingDirectory + xmlLocation;
 
         LOG.info("PeriodictableparserProvider: Session Initiated");
@@ -83,16 +76,25 @@ public class PeriodictableparserProvider {
     * @pararm filePath This is a string reprsentatio of the absolute path of the file to be parsed
     * @return  List<PeriodicElement> This returns a list of the parsed data.
     */
-     public List<PeriodicElement> parseCSV(String filePath)
+     public static List<PeriodicElement> parseCSV(String filePath)
     {
-        List<PeriodicElement> elementList = null; 
-        try{
-                elementList = new CsvToBeanBuilder(new FileReader(filePath)).withType(PeriodicElement.class).build().parse();
-                 LOG.info("PeriodictableparserProvider: Created Java Objects");
+         List<PeriodicElement> elementList = null;
+         String fileExtension= "";
+         File fileCheck = new File(filePath);
+         if(fileCheck.exists() && !fileCheck.isDirectory() && fileCheck.canRead())
+         {
+            fileExtension = FilenameUtils.getExtension(filePath);
+        
+            if(fileExtension.equals("csv")){
+                try{
+                        elementList = new CsvToBeanBuilder(new FileReader(filePath)).withType(PeriodicElement.class).build().parse();
+                        LOG.info("PeriodictableparserProvider: Created Java Objects");
+                    }
+                    catch(FileNotFoundException e){
+                         e.printStackTrace();
+                    }
             }
-            catch(FileNotFoundException e){
-                e.printStackTrace();
-            }
+        }
 
         return elementList; 
     }
@@ -106,12 +108,13 @@ public class PeriodictableparserProvider {
     * @param elementList This is a list of the parsed data.
     * @return void This method does not return anything. 
     */
-    public void createXMLFile(String writeFile, List<PeriodicElement> elementList) throws IOException
+    public static void createXMLFile(String writeFile, List<PeriodicElement> elementList) throws IOException
      { 
+        if(!elementList.isEmpty()){
 
-        Document doc = new Document(); 
-        doc.setRootElement(new Element("PeriodicTable"));
-        for(PeriodicElement element : elementList){
+            Document doc = new Document(); 
+            doc.setRootElement(new Element("PeriodicTable"));
+            for(PeriodicElement element : elementList){
 
                 Element ele = new Element("Element");
 
@@ -163,9 +166,11 @@ public class PeriodictableparserProvider {
 
                 doc.getRootElement().addContent(ele);
 
+            }
+            XMLOutputter xmlOutputter = new XMLOutputter(Format.getPrettyFormat());
+            xmlOutputter.output(doc, new FileOutputStream(writeFile));
+            
         }
-        XMLOutputter xmlOutputter = new XMLOutputter(Format.getPrettyFormat());
-        xmlOutputter.output(doc, new FileOutputStream(writeFile));
     }
 
      /**
@@ -175,12 +180,15 @@ public class PeriodictableparserProvider {
     * @param elementList This is a list of the parsed data.
     * @return void This method does not return anything. 
     */
-    public void createJSONFile(String writeFile, List<PeriodicElement> elementList) throws IOException
+    public static void createJSONFile(String writeFile, List<PeriodicElement> elementList) throws IOException
     {
-             JsonFactory jsonData = new JsonFactory(); 
-             JsonGenerator writer = jsonData.createGenerator(new File(writeFile),JsonEncoding.UTF8);
-             writer.writeStartArray();
-            for(PeriodicElement element : elementList){
+        if(!elementList.isEmpty()){
+            
+            JsonFactory jsonData = new JsonFactory(); 
+            JsonGenerator writer = jsonData.createGenerator(new File(writeFile),JsonEncoding.UTF8);
+            writer.writeStartArray();
+            for(PeriodicElement element : elementList)
+            {
 
                 writer.writeStartObject();
 
@@ -199,7 +207,7 @@ public class PeriodictableparserProvider {
                 writer.writeStringField("Phase", element.getPhase());
 
                 writer.writeStringField("Most Stable Crystal", element.getMstStableCrystal());
-
+    
                 writer.writeStringField("Type", element.getTypeElement());
 
                 writer.writeNumberField("Ionic Radius", element.getIonicRadius());
@@ -234,7 +242,9 @@ public class PeriodictableparserProvider {
             }
             writer.writeEndArray();
            
-        writer.close();
+            writer.close();
+            
+        }
 
     }
 

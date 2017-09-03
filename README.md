@@ -19,3 +19,16 @@
 5. Once inside the karaf terminal,  type: log:tail | grep PeriodictableparserProvider 
 6. type shutdown -f   to exit karaf terminal 
 
+3.0 Testing 
+
+** Test cases were developed for the following scenarios:
+
+	1.Tested the generated JSON file with an expected JSON file  
+	2. Tested the generated XML file with an expected XML file
+	3. Tested the parseCSV method with a file that has an extension that is not .csv
+	4. Tested the  parseCSV method with a file that does not exist.
+
+The generated test files are created in the following directory: /periodictableparser/impl/src/main/resources/testData/   as well as the expected files that they
+are tested against. 
+
+ 

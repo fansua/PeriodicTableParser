@@ -10,6 +10,7 @@ package org.opendaylight.periodictableparser.impl;
 
 
 import com.opencsv.bean.CsvBindByName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
 * The following class is used to model the data from from csv  file. 
@@ -19,72 +20,95 @@ import com.opencsv.bean.CsvBindByName;
 public class PeriodicElement 
 {
     @CsvBindByName(column = "Atomic Number")
+    @JsonProperty("Atomic Number")
     private int atomicNum;
 
    @CsvBindByName(column = "Period")
+   @JsonProperty("Period")
     private int period;
 
     @CsvBindByName(column = "Group")
+    @JsonProperty("Group")
     private int group;
 
     @CsvBindByName(column = "Isotopes")
+    @JsonProperty("Isotopes")
     private int isotopes;
 
     @CsvBindByName(column = "Year of Discovery")
+    @JsonProperty("Year of Discovery")
     private int yrOfDiscovery;
 
     @CsvBindByName(column = "Display Row")
+    @JsonProperty("Display Row")
     private int displayRow;
 
     @CsvBindByName(column = "Display Column")
+    @JsonProperty("Display Column")
     private int displayCol;
 
     @CsvBindByName(column = "Element")
+    @JsonProperty("Element")
     private String element;
 
     @CsvBindByName(column = "Phase")
+    @JsonProperty("Phase")
     private String phase;
 
     @CsvBindByName(column = "Most Stable Crystal")
+    @JsonProperty("Most Stable Crystal")
     private String mstStableCrystal;
 
     @CsvBindByName(column = "Type")
+    @JsonProperty("Type")
     private String typeElement;
 
     @CsvBindByName(column = "Ionic Radius")
+    @JsonProperty("Ionic Radius")
     private float ionicRadius;
 
     @CsvBindByName(column = "Discoverer")
+    @JsonProperty("Discoverer")
     private String discoverer;
 
     @CsvBindByName(column = "Electron Configuration")
+    @JsonProperty("Electron Configuration")
     private String electronConfig;
 
     @CsvBindByName(column = "Atomic Weight")
+    @JsonProperty("Atomic Weight")
     private float atomicWeight;
 
     @CsvBindByName(column = "Atomic Radius")
+    @JsonProperty("Atomic Radius")
     private float atomicRadius;
 
     @CsvBindByName(column = "Electronegativity")
+    @JsonProperty("Electronegativity")
     private float electronegativity;
 
     @CsvBindByName(column = "First Ionization Potential")
+    @JsonProperty("First Ionization Potential")
     private float firstIonizedPotential;
 
     @CsvBindByName(column = "Density")
+    @JsonProperty("Density")
     private float density;
 
     @CsvBindByName(column = "Melting Point (K)")
+    @JsonProperty("Melting Point")
     private float meltingPt;
 
     @CsvBindByName(column = "Boiling Point (K)")
+    @JsonProperty("Boiling Point")
     private float boilingPt;
 
     @CsvBindByName(column = "Specific Heat Capacity")
+    @JsonProperty("Specific Heat Capacity")
     private float specifcHeatCapacity; 
 
     @CsvBindByName(column = "Symbol")
+    @JsonProperty("Symbol")
     private String elementSymbol; 
 
 
